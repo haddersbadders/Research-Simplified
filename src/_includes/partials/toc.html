@@ -1,0 +1,15 @@
+<ul class="w3-ul ">
+
+{% for item in collections.chapters %}
+
+    <li class="w3-bar">
+      <a href="{{ item.url }}">
+        <img src="{{ item.data.teaser.icon }}" alt="{{ item.data.teaser.alt }}" class="w3-bar-item w3-circle w3-hide-small" style="width:110px" /> </a>
+        
+        <a href="{{ item.url }}"><h3>Chapter {{ item.data.displayOrder }}: {{ item.data.title }}</h3></a>
+        <span>{{ item.data.teaser.slug }}</span>
+     
+    </li>
+
+{% endfor %}
+</ul>

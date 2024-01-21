@@ -1,0 +1,34 @@
+{% extends "layouts/base.html" %} 
+{% block content %}
+<article class="w3-container">
+
+  {% if mainImage %}
+<style>
+.bg {
+  background: url({{ mainImage }}) no-repeat center center/cover;
+  background-color: #474747';
+  background-blend-mode: hard-light;
+  height: 20rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 -16px;
+}
+
+header h1 {
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  /* line-height: 20rem; */
+  font-size: 4em;;
+}
+</style>
+{% endif %}
+
+
+    <header class="w3-container bg">
+  <h1>{{ title }}</h1>
+</header>
+    {{ content | safe }}
+  </article>
+{% endblock %}
