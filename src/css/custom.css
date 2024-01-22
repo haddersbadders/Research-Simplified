@@ -8,3 +8,7 @@
     font-weight: normal;
     font-size: 1em;
  }
+
+ .pagefind-ui__drawer, .pagefind-ui__results-area {
+   background: white;
+ }

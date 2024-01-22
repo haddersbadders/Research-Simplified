@@ -130,7 +130,16 @@ header h1 {
     <header class="w3-container bg">
   <h1>Basics of Research for Healthcare Professionals</h1>
 </header>
-     <h3>Table of Contents</h3>
+       <h3>Search</h3>
+   <link href="/pagefind/pagefind-ui.css" rel="stylesheet">
+      <script src="/pagefind/pagefind-ui.js"></script>
+      <div id="search"></div>
+      <script>
+          window.addEventListener('DOMContentLoaded', (event) => {
+              new PagefindUI({ element: "#search", showImages: false, showSubResults: true });
+          });
+      </script>
+ <h3>Table of Contents</h3>
 <ul class="w3-ul ">
 <p><li class="w3-bar">
 <a href="/chapters/an-introduction-to-research/">
@@ -201,17 +210,17 @@ header h1 {
  
 
   <!-- Footer -->
-  <footer class="w3-container w3-padding-32 w3-dark-grey">
+  <footer class="w3-black w3-center w3-padding-24">
   <div class="w3-row-padding">
    
    
 
-   <p>Not much here...</p>
+   <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css</a></p>
 
   </div>
   </footer>
   
-  <div class="w3-black w3-center w3-padding-24">Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css</a></div>
+
 
 <!-- End page content -->
 </div>
