@@ -2,7 +2,7 @@
 title: An Introduction to Research
 layout: layouts/home.html
 displayOrder: 1
-mainImage: '/images/man-2562325_1280.jpg'
+mainImage: '/images/laptop-2562210_1280.jpg'
 teaser:
   slug: Research is systematic exploration of issues to understand complexities
     and find practical solutions.
