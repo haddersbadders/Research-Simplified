@@ -1,3 +1,3 @@
 # Research Simplified
  
-Add description
+Add description.
