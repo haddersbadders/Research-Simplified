@@ -1,3 +1,3 @@
 # Research Simplified
  
-Add description.
+deploys to [https://research-simplified.netlify.app/](https://research-simplified.netlify.app/)
