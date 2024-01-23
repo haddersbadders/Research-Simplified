@@ -44,7 +44,7 @@ Here's why being involved in research is so important:
 ## The Research process
 
 Think of the research process as a roadmap. It's like having a step-by-step guide to help us navigate through the research journey. In reality, it's not always a straight line; sometimes, we go in circles or take detours. But having a roadmap helps us stay on track.
-![The Research Process](/assets/img/research-process.jpg)
+![The Research Process](/images/research-process.jpg)
 
 This website is designed to be your trusty guide on this research journey. It's meant for healthcare professionals working in different settings, and it covers a wide range of topics, from asking research questions to finding answers.
 
