@@ -1,0 +1,43 @@
+
+{% for item in crMatrix.items %}
+<div class="w3-card-2" id="{{ item.id }}">
+
+    <header class="w3-container w3-black ">
+      <h3>{{ item.name }}</h3>
+    </header>
+    
+    <div class="w3-bar">
+    <button onclick="openMatrix('{{ item.id }}Desc')" class="w3-bar-item w3-button">Description</button>
+    <button onclick="openMatrix('{{ item.id }}Search')" class="w3-bar-item w3-button">Search</button>
+    <button onclick="openMatrix('{{ item.id }}App')" class="w3-bar-item w3-button">Appraisal</button>
+    <button onclick="openMatrix('{{ item.id }}Syn')" class="w3-bar-item w3-button">Synthesis</button>
+    <button onclick="openMatrix('{{ item.id }}Anls')" class="w3-bar-item w3-button">Analysis</button>
+    </div>
+    
+    <div class="w3-container matrix" id="{{ item.id }}Desc">
+      <h4>Description</h4>
+        <p >{{ item.description }}</p>
+      </div>
+      
+      <div class="w3-container matrix" id="{{ item.id }}Search" style="display:none">
+        <h4>Search</h4>
+        <p>{{ item.search }}</p>
+      </div>
+      
+      <div class="w3-container matrix " id="{{ item.id }}App" style="display:none">
+        <h4>Appraisal</h4>
+        <p>{{ item.appraisal }}</p>
+      </div>
+      
+      <div class="w3-container matrix " id="{{ item.id }}Syn" style="display:none">
+        <h4>Synthesis</h4>
+        <p>{{ item.synthesis }}</p>
+      </div>
+      
+      <div class="w3-container matrix " id="{{ item.id }}Anls" style="display:none">
+        <h4>Analysis</h4>
+        <p>{{ item.analysis }}</p>
+      </div>
+      </div>
+
+      {% endfor %}

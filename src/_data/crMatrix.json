@@ -1,0 +1,144 @@
+{
+    "items": [
+        {
+            "id": "cr",
+            "name": "Critical Review",
+            "description": "Aims to demonstrate writer has extensively researched literature and critically evaluated its quality. Goes beyond mere description to include degree of analysis and conceptual innovation. Typically results in hypothesis or mode.",
+            "search": "Seeks to identify most significant items in the field.",
+            "appraisal": "No formal quality assessment. Attempts to evaluate according to contribution.",
+            "synthesis": "Typically narrative, perhaps conceptual or chronological.",
+            "analysis": "Significant component: seeks to identify conceptual contribution to embody existing or derive new theory."
+        },
+        
+        {
+                "id": "lr",
+                "name": "Literature Review",
+                "description": "Generic term: published materials that provide examination of recent or current literature. Can cover wide range of subjects at various levels of completeness and comprehensiveness. May include research findings.",
+                "search": "May or may not include comprehensive searching.",
+                "appraisal": "May or may not include quality assessment.",
+                "synthesis": "Typically narrative.",
+                "analysis": "Analysis may be chronological, conceptual, thematic, etc."
+         },
+
+            {
+                "id": "mr",
+                "name": "Mapping Review/ Systematic Map",
+                "description": "Map out and categorize existing literature from which to commission further reviews and/or primary research by identifying gaps in research literature.",
+                "search": "Completeness of searching determined by time/scope constraint.",
+                "appraisal": "No formal quality assessment.",
+                "synthesis": "May be graphical and tabular.",
+                "analysis": "Characterizes quantity and quality of literature, perhaps by study design and other key features. May identify need for primary or secondary research."
+            },
+
+            {
+                "id": "ma",
+                "name": "Meta-Analysis",
+                "description": "Technique that statistically combines the results of quantitative studies to provide a more precise effect of the results.",
+                "search": "Aims for exhaustive, comprehensive searching. May use funnel plot to assess completeness.",
+                "appraisal": "Quality assessment may determine inclusion/ exclusion and/or sensitivity analyses.",
+                "synthesis": "Graphical and tabular with narrative commentary.",
+                "analysis": "Numerical analysis of measures of effect assuming absence of heterogeneity."
+            },
+
+            {
+                "id": "ms",
+                "name": "Mixed Studies Review/Mixed Methods Review",
+                "description": "Refers to any combination of methods where one significant component is a literature review (usually systematic). Within a review context it refers to a combination of review approaches for example combining quantitative with qualitative research or outcome with process studies.",
+                "search": "Requires either very sensitive search to retrieve all studies or separately conceived quantitative and qualitative strategies.",
+                "appraisal": "Requires either a generic appraisal instrument or separate appraisal processes with corresponding checklists.",
+                "synthesis": "Typically both components will be presented as narrative and in tables. May also employ graphical means of integrating quantitative and qualitative studies.",
+                "analysis": "Analysis may characterise both literatures and look for correlations between characteristics or use gap analysis to identify aspects absent in one literature but missing in the other."
+            },
+
+            {
+                "id": "ov",
+                "name": "Overview",
+                "description": "Generic term: summary of the [medical] literature that attempts to survey the literature and describe its characteristics.",
+                "search": "May or may not include comprehensive searching (depends whether systematic overview or not).",
+                "appraisal": "May or may not include quality assessment (depends whether systematic overview or not).",
+                "synthesis": "Synthesis depends on whether systematic or not. Typically narrative but may include tabular features.",
+                "analysis": "Analysis may be chronological, conceptual, thematic, etc."
+            },
+
+            {
+                "id": "qs",
+                "name": "Qualitative Systematic Review/Qualitative Evidence Synthesis",
+                "description": "Method for integrating or comparing the findings from qualitative studies. It looks for 'themes' or 'constructs' that lie in or across individual qualitative studies.",
+                "search": "May employ selective or purposive sampling.",
+                "appraisal": "Quality assessment typically used to mediate messages not for inclusion/exclusion.",
+                "synthesis": "Qualitative, narrative synthesis.",
+                "analysis": "Thematic analysis, may include conceptual models."
+            },
+
+            {
+                "id": "rr",
+                "name": "Rapid Review",
+                "description": "Assessment of what is already known about a policy or practice issue, by using systematic review methods to search and critically appraise existing research.",
+                "search": "Completeness of searching determined by time constraints.",
+                "appraisal": "Time-limited formal quality assessment.",
+                "synthesis": "Typically narrative and tabular.",
+                "analysis": "Quantities of literature and overall quality/direction of effect of literature."
+            },
+        
+            {
+                "id": "sr",
+                "name": "Scoping Review",
+                "description": "Preliminary assessment of potential size and scope of available research literature. Aims to identify nature and extent of research evidence (usually including ongoing research).",
+                "search": "Completeness of searching determined by time/scope constraints. May include research in progress.",
+                "appraisal": "No formal quality assessment.",
+                "synthesis": "Typically tabular with some narrative commentary.",
+                "analysis": "Characterizes quantity and quality of literature, perhaps by study design and other key features. Attempts to specify a viable review."
+            },
+
+            {
+                "id": "sar",
+                "name": "State-Of-The-Art Review",
+                "description": "Tend to address more current matters in contrast to other combined retrospective and current approaches. May offer new perspectives.",
+                "search": "Aims for comprehensive searching of current literature.",
+                "appraisal": "No formal quality assessment.",
+                "synthesis": "Typically narrative, may have tabular accompaniment.",
+                "analysis": "Current state of knowledge and priorities for future investigation and research."
+            },
+
+            {
+                "id": "syr",
+                "name": "Systematic Review",
+                "description": "Seeks to systematically search for, appraise and synthesis research evidence, often adhering to guidelines on the conduct of a review.",
+                "search": "Aims for exhaustive, comprehensive searching.",
+                "appraisal": "Quality assessment may determine inclusion/exclusion.",
+                "synthesis": "Typically narrative with tabular accompaniment.",
+                "analysis": "What is known; recommendations for practice. What remains unknown; uncertainty around findings, recommendations for future research."
+            },
+
+            {
+                "id": "sysr",
+                "name": "Systematic Search and Review",
+                "description": "Combines strengths of critical review with a comprehensive search process. Typically addresses broad questions to produce 'best evidence synthesis'.",
+                "search": "Aims for exhaustive, comprehensive searching.",
+                "appraisal": "May or may not include quality assessment.",
+                "synthesis": "Minimal narrative, tabular summary of studies.",
+                "analysis": "What is known; recommendations for practice. Limitations."
+            },
+
+            {
+                "id": "syzr",
+                "name": "Systematized Review",
+                "description": "Attempt to include elements of systematic review process while stopping short of systematic review. Typically conducted as postgraduate student assignment.",
+                "search": "May or may not include comprehensive searching.",
+                "appraisal": "May or may not include quality assessment.",
+                "synthesis": "Typically narrative with tabular accompaniment.",
+                "analysis": "What is known; uncertainty around findings; limitations of methodology."
+            },
+
+            {
+                "id": "ur",
+                "name": "Umbrella Review",
+                "description": "Specifically refers to review compiling evidence from multiple reviews into one accessible and usable document. Focuses on broad condition or problem for which there are competing interventions and highlights reviews that address these interventions and their results.",
+                "search": "Identification of component reviews, but no search for primary studies.",
+                "appraisal": "Quality assessment of studies within component reviews and/or of reviews themselves.",
+                "synthesis": "Graphical and tabular with narrative commentary.",
+                "analysis": "What is known; recommendations for practice. What remains unknown; recommendations for future research."
+            }
+
+    ]
+}

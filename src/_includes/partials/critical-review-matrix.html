@@ -1,0 +1,79 @@
+<!-- can I do this programarically? e.g. with json -->
+<div class="w3-card-4" id="CriticalReview">
+
+  <header class="w3-container w3-black">
+    <h3>Critical Review</h3>
+  </header>
+  
+  <div class="w3-bar">
+  <button onclick="openMatrix('crD')" class="w3-bar-item w3-button">Description</button>
+  <button onclick="openMatrix('crSearch')" class="w3-bar-item w3-button">Search</button>
+  <button onclick="openMatrix('crApp')" class="w3-bar-item w3-button">Appraisal</button>
+  <button onclick="openMatrix('crSyn')" class="w3-bar-item w3-button">Synthesis</button>
+  <button onclick="openMatrix('crAnls')" class="w3-bar-item w3-button">Analysis</button>
+  </div>
+  
+  <div class="w3-container matrix" id="crD">
+    <h4>Description</h4>
+      <p >Aims to demonstrate writer has extensively researched literature and critically evaluated its quality. Goes beyond mere description to include degree of analysis and conceptual innovation. Typically results in hypothesis or mode.</p>
+    </div>
+    
+    <div class="w3-container matrix" id="crSearch" style="display:none">
+      <h4>Search</h4>
+      <p>Seeks to identify most significant items in the field.</p>
+    </div>
+    
+    <div class="w3-container matrix " id="crApp" style="display:none">
+      <h4>Appraisal</h4>
+      <p>No formal quality assessment. Attempts to evaluate according to contribution.</p>
+    </div>
+    
+    <div class="w3-container matrix " id="crSyn" style="display:none">
+      <h4>Synthesis</h4>
+      <p>Typically narrative, perhaps conceptual or chronological.</p>
+    </div>
+    
+    <div class="w3-container matrix " id="crAnls" style="display:none">
+      <h4>Analysis</h4>
+      <p>Significant component: seeks to identify conceptual contribution to embody existing or derive new theory.</p>
+    </div>
+    </div>
+    
+    <div class="w3-card-4" id="LiteratureReview">
+    
+    <header class="w3-container w3-black">
+      <h3>Literature review</h3>
+    </header>
+    
+    <div class="w3-bar">
+    <button onclick="openMatrix('lrD')" class="w3-bar-item w3-button">Description</button>
+    <button onclick="openMatrix('lrSearch')" class="w3-bar-item w3-button">Search</button>
+    <button onclick="openMatrix('lrApp')" class="w3-bar-item w3-button">Appraisal</button>
+    <button onclick="openMatrix('lrSyn')" class="w3-bar-item w3-button">Synthesis</button>
+    <button onclick="openMatrix('lrAnls')" class="w3-bar-item w3-button">Analysis</button>
+    </div>
+    <div class="w3-container matrix" id="lrD">
+    <h4>Description</h4>
+      <p>Generic term: published materials that provide examination of recent or current literature. Can cover wide range of subjects at various levels of completeness and comprehensiveness. May include research findings.</p>
+    </div>
+    
+    <div class="w3-container matrix" id="lrSearch" style="display:none">
+      <h4>Search</h4>
+      <p>May or may not include comprehensive searching.</p>
+    </div>
+    
+    <div class="w3-container matrix " id="lrApp" style="display:none">
+      <h4>Appraisal</h4>
+      <p>May or may not include quality assessment.</p>
+    </div>
+    
+    <div class="w3-container matrix " id="lrSyn" style="display:none">
+      <h4>Synthesis</h4>
+      <p>Typically narrative.</p>
+    </div>
+    
+    <div class="w3-container matrix " id="lrAnls" style="display:none">
+      <h4>Analysis</h4>
+      <p>Analysis may be chronological, conceptual, thematic, etc.</p>
+    </div>
+    </div>

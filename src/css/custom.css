@@ -23,7 +23,9 @@
    color: #000!important;
    background-color: #ccc!important;
 }
-
+main {
+  position: relative;
+}
 main img {
   max-width: 100%;
 }

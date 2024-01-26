@@ -1,0 +1,19 @@
+
+<nav class="w3-bar-block w3-light-grey" style="width:130px; position:relative;">
+
+    {% for item in crMatrix.items %}
+    <button class="w3-bar-item w3-button tablink" onclick="openCr(event, '{{ item.id }}')">{{ item.name }}</button>
+  
+{% endfor %}
+
+</nav>
+<div style="margin-left:136px">
+    {% for item in crMatrix.items %}
+
+    <div id="{{ item.id }}" class="w3-container cr" style="display:none">
+        <h2>{{ item.name }}</h2>
+        <p>London is the capital city of England.</p>
+        <p>It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+      </div>
+      {% endfor %}
+</div>

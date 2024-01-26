@@ -1,0 +1,13 @@
+{% for group in crMatrix.items|batch(2) %}
+<div class="w3-cell-row">
+    {% for item in group %}
+    <div class="w3-container w3-cell w3-mobile">
+<div class="w3-card">
+   <header class="w3-teal"> <h4>{{ item.name }}</h4></header>
+   <p><strong>Description</strong>: <br>{{ item.description }} </p>
+   <p><strong>Search</strong>: <br>{{ item.search }}</p>
+  </div>
+</div>
+{% endfor %}
+</div>
+{% endfor %}
