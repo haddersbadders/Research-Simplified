@@ -101,7 +101,7 @@ A review of reviews is a systematic method of systematically summarizing the fin
 An umbrella review is a review of multiple systematic reviews. The process uses explicit and systematic methods to search for, and identify, systematic reviews on related research questions in the same topic area. The purpose of an umbrella review is to synthesize the results of the systematic reviews across important outcomes. 
 
 
-<!-- Critical Review Matrix. try a table again. Cna the table be filtered? -->
+<!-- Critical Review Matrix. try a table again. Can the table be filtered? -->
 
 
  {% include "partials/critical-review-vertical-tabs.html" %}
