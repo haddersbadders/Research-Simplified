@@ -106,7 +106,7 @@ try a table again. Can the table be filtered?
 What other views can be used? -->
 
 
- {% include "partials/critical-review-vertical-tabs.html" %}
+ {% include "partials/critical-review-matrix-json.html" %}
 
 ### Process of Literature Review
 

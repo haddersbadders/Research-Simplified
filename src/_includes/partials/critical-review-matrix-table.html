@@ -1,0 +1,21 @@
+<table class="w3-table-all">
+    <tr>
+      <th>Name</th>
+      <th>Description</th>
+      <th>Search</th>
+      <th>Appraisal</th>
+      <th>Synthesis</th>
+      <th>Analysis</th>
+    </tr>
+    {% for item in crMatrix.items %}
+    <tr>
+      <td>{{ item.name }}</td>
+      <td>{{ item.description }}</td>
+      <td>{{ item.search }}</td>
+      <td>{{ item.appraisal }}</td>
+      <td>{{ item.synthesis }}</td>
+      <td>{{ item.analysis }}</td>
+    </tr>
+    {% endfor %}
+    </table>
+
