@@ -13,71 +13,23 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
 <link rel="stylesheet" href="{{ '/css/custom.css' | url }}">
 </head>
 <body class="w3-light-grey">
-
 <!-- Sidebar/menu -->
-
     {% include "partials/nav.html" %}
-   
-
-
-
-
 <!-- !PAGE CONTENT! -->
 <div class="w3-main" style="margin-left:300px">
-
   <!-- Header -->
   <div>
-    
     <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
-    <!-- <div class="w3-container">
-    <h1><b>{{ title }}</b></h1>
-    
-    </div> -->
   </div>
-  
-  
- 
-
     {% block content %}{% endblock %}
-
- 
-
-
-
- 
-
-
-  
- 
-
   <!-- Footer -->
   <footer class="w3-black w3-center w3-padding-24">
   <div class="w3-row-padding">
-   
-   
-
-   <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css</a></p>
-
+   <p><a href="https://www.sheffield.ac.uk/" title="The University of Sheffield" target="_blank" class="w3-hover-opacity">University of Sheffield </a></p>
   </div>
   </footer>
-  
-
-
 <!-- End page content -->
 </div>
-
-<script>
-// Script to open and close sidebar
-function w3_open() {
-    document.getElementById("mySidebar").style.display = "block";
-    document.getElementById("myOverlay").style.display = "block";
-}
- 
-function w3_close() {
-    document.getElementById("mySidebar").style.display = "none";
-    document.getElementById("myOverlay").style.display = "none";
-}
-</script>
 <script src="{{ '/js/index.js' | url }}"></script>
 </body>
 </html>
