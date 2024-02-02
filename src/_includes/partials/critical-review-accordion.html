@@ -1,0 +1,18 @@
+    <dl class="w3-container">
+        {% for item in crMatrix.items %}
+        <dt><button onclick="accordion('{{ item.id }}')" class="w3-button w3-block w3-blue-grey w3-left-align w3-border-bottom w3-border-white">{{ item.name }}</button></dt>
+        
+      <dd id="{{ item.id }}" class="w3-container w3-hide">
+        <h4>Description</h4>
+        <p>{{ item.description }}</p>
+        <h4>Search</h4>
+        <p>{{ item.search }}</p>
+        <h4>Appraisal</h4>
+        <p>{{ item.appraisal }}</p>
+        <h4>Synthesis</h4>
+        <p>{{ item.synthesis }}</p>
+        <h4>Analysis</h4>
+        <p>{{ item.analysis }}</p>
+    </dd>    
+    {% endfor %}
+    </dl>

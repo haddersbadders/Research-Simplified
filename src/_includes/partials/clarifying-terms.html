@@ -1,0 +1,15 @@
+<dl class="w3-container">
+    {% for item in clarifyTerms.items %}
+	<dt><button onclick="accordion('{{ item.id }}')" class="w3-button w3-block w3-blue-grey w3-left-align w3-border-bottom w3-border-white">{{ item.term }}</button></dt>
+	
+  <dd id="{{ item.id }}" class="w3-container w3-hide">
+{{ item.description }}
+
+<p><strong>Example: </strong></p>
+
+{{ item.example }}
+</dd>
+
+
+{% endfor %}
+</dl>

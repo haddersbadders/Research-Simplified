@@ -73,57 +73,7 @@ You may have seen that not all studies have research questions. Some have hypoth
 
 Click on the terms below to understand and distinguish between various terms:
 
-<dl class="w3-container">
-	<dt><button onclick="accordion('term1')" class="w3-button w3-block w3-blue-grey w3-left-align w3-border-bottom w3-border-white">Research problem</button></dt>
-	
-  <dd id="term1" class="w3-container w3-hide">
-<p>An enigmatic or troubling condition or concern or specific issue or gap in knowledge that the researcher would like to explore. </p>
-
-<p><strong>Example: </strong></p>
-
-<p>Recent data shows rise in number of medical incidents and staff sickness reports. </p>
-
-<p>Stress can impact on healthcare workers performance and health. </p>
-
-<p>"Reducing healthcare worker stress through targeted interventions and support to mitigate its adverse effects on well-being and performance."</p>
-</dd>
-
-<dt><button onclick="accordion('term2')" class="w3-button w3-block w3-blue-grey w3-left-align w3-border-bottom w3-border-white">Statement of Purpose</button></dt>
-<dd id="term2" class="w3-container w3-hide">
-<p>A clear and concise description of the problem and the proposed methods of addressing it (problem). </p>
-
-<p><strong>Example:</strong></p>
-
-<p>The purpose of the study is to investigate the link between lack of sleep and stress at work, among healthcare workers. </p>
-
-</dd>
-
-<dt><button onclick="accordion('term3')" class="w3-button w3-block w3-blue-grey w3-left-align w3-border-bottom w3-border-white">Research question</button></dt>
-<dd id="term3" class="w3-container w3-hide">
-<p>A research question is  a specific enquiry of exactly what issues the researcher intends to answer.</p>
-
-<p><strong>Example:</strong></p>
-
-<p>Does more than 6 hours of sleep at night reduce stress at work among healthcare workers?</p>
-</dd>
-
-<dt><button onclick="accordion('term4')" class="w3-button w3-block w3-blue-grey w3-left-align w3-border-bottom w3-border-white">Hypothesis</button></dt>
-<dd id="term4" class="w3-container w3-hide">
-<p>A statement about the expected or predictive relationship between two or more variables. It must specify the variables, the population being studied and the predicted outcome of the hypothesis</p>
-<p><strong>Example:</strong></p>
-<p>Healthcare providers who sleep more than 6 hours at night are less stressed at work than healthcare workers who sleep less than hours at night. </p>
-</dd>
-
-<dt><button onclick="accordion('term5')" class="w3-button w3-block w3-blue-grey w3-left-align w3-border-bottom w3-border-white">Aims/Objectives</button></dt>
-<dd id="term5" class="w3-container w3-hide">
-<p>A purpose statement explains the major aim, intent, or roadmap of the study. It should be a single sentence, include the purpose of the study, include the central phenomenon, use qualitative words, e.g. explore, understand, discover, note the participants (if any) and state the research site.</p>
-<p><strong>Example:</strong></p>
-<p>To assess the impact of mobility-promoting interventions on patient recovery, functional independence, and overall healthcare outcomes within a specific healthcare environment. </p>
-</dd>
-
-</dl>
-
-
+{% include "partials/clarifying-terms.html" %}
 
 ## Research questions in Qualitative and Quantitative research 
 

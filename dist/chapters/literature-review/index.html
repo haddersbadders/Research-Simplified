@@ -19,61 +19,35 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
       <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-large w3-padding w3-hover-grey" title="close menu">
         <i class="fa fa-remove"></i>
       </a>
-      
     </div>
     <div class="w3-container brand w3-border-bottom w3-border-grey w3-margin-right w3-margin-left">
       <h1>Research Simplified: A Healthcare Professional&#39;s Guide.</h1>
       <!-- <h3>Basics of Research for Healthcare Professionals</h3> -->
-      
-   
-
     </div>
     <div class="w3-bar-block">
       <a href="/" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-white"></i>Home</a> 
   <!-- <h3 class="w3-margin w3-border-bottom">Chapters</h3> -->
 
-
-
 <a href="/chapters/an-introduction-to-research/" class="w3-bar-item w3-button w3-padding w3-text-white">An Introduction to Research</a> 
-
-
 
 <a href="/chapters/the-research-question/" class="w3-bar-item w3-button w3-padding w3-text-white">The Research Question</a> 
 
-
-
 <a href="/chapters/literature-review/" class="w3-bar-item w3-button w3-padding w3-text-white">Literature Review</a> 
-
-
 
 <a href="/chapters/research-design/" class="w3-bar-item w3-button w3-padding w3-text-white">Research Design</a> 
 
-
-
 <a href="/chapters/ethics-and-integrity/" class="w3-bar-item w3-button w3-padding w3-text-white">Ethics and Integrity</a> 
-
-
 
 <a href="/chapters/data-collection/" class="w3-bar-item w3-button w3-padding w3-text-white">Data Collection</a> 
 
-
-
 <a href="/chapters/data-analysis/" class="w3-bar-item w3-button w3-padding w3-text-white">Data Analysis</a> 
-
-
 
 <a href="/chapters/evidence-based-practice/" class="w3-bar-item w3-button w3-padding w3-text-white">Evidence-Based Practice</a> 
 
-
-
 <a href="/chapters/research-proposal/" class="w3-bar-item w3-button w3-padding w3-text-white">Research Proposal</a> 
 
-
-
 </div>
- 
 </nav>
-
 <!-- Overlay effect when opening sidebar on small screens -->
 <div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
 
@@ -107,8 +81,6 @@ header h1 {
   font-size: 4em;;
 }
 </style>
-
-
 
     <header class="w3-container bg">
   <h1>Literature Review</h1>
@@ -172,457 +144,191 @@ The process operates within pre-specified limits (for example, by restricting se
 <p>A review of reviews is a systematic method of systematically summarizing the findings of existing reviews and synthesizing them into a single report. It is a form of evidence synthesis that can help to identify gaps in evidence, identify trends in the literature, and identify areas for further research. The review of reviews allows for a more comprehensive assessment of the existing evidence and can be used to inform future research.</p>
 <h3 id="umbrella-reviews-or-overview-of-reviews" tabindex="-1">Umbrella Reviews or Overview of Reviews</h3>
 <p>An umbrella review is a review of multiple systematic reviews. The process uses explicit and systematic methods to search for, and identify, systematic reviews on related research questions in the same topic area. The purpose of an umbrella review is to synthesize the results of the systematic reviews across important outcomes.</p>
-<!-- Critical Review Matrix. 
-try a table again. Can the table be filtered?
-What other views can be used? -->
-<div class="w3-card-2" id="cr">
-<p><header class="w3-container w3-black ">
-<h3>Critical Review</h3>
-</header></p>
-<p><div class="w3-bar">
-<button onclick="openMatrix('crDesc')" class="w3-bar-item w3-button">Description</button>
-<button onclick="openMatrix('crSearch')" class="w3-bar-item w3-button">Search</button>
-<button onclick="openMatrix('crApp')" class="w3-bar-item w3-button">Appraisal</button>
-<button onclick="openMatrix('crSyn')" class="w3-bar-item w3-button">Synthesis</button>
-<button onclick="openMatrix('crAnls')" class="w3-bar-item w3-button">Analysis</button>
-</div></p>
-<p><div class="w3-container matrix" id="crDesc">
+<p>Click on the terms below to explore, understand and distinguish between various terms:</p>
+<p><dl class="w3-container"></p>
+<p><dt><button onclick="accordion('cr')" class="w3-button w3-block w3-blue-grey w3-left-align w3-border-bottom w3-border-white">Critical Review</button></dt></p>
+<p><dd id="cr" class="w3-container w3-hide">
 <h4>Description</h4>
-<p >Aims to demonstrate writer has extensively researched literature and critically evaluated its quality. Goes beyond mere description to include degree of analysis and conceptual innovation. Typically results in hypothesis or mode.</p>
-</div></p>
-<p><div class="w3-container matrix" id="crSearch" style="display:none">
+<p>Aims to demonstrate writer has extensively researched literature and critically evaluated its quality. Goes beyond mere description to include degree of analysis and conceptual innovation. Typically results in hypothesis or mode.</p>
 <h4>Search</h4>
 <p>Seeks to identify most significant items in the field.</p>
-</div></p>
-<p><div class="w3-container matrix " id="crApp" style="display:none">
 <h4>Appraisal</h4>
 <p>No formal quality assessment. Attempts to evaluate according to contribution.</p>
-</div></p>
-<p><div class="w3-container matrix " id="crSyn" style="display:none">
 <h4>Synthesis</h4>
 <p>Typically narrative, perhaps conceptual or chronological.</p>
-</div></p>
-<p><div class="w3-container matrix " id="crAnls" style="display:none">
 <h4>Analysis</h4>
 <p>Significant component: seeks to identify conceptual contribution to embody existing or derive new theory.</p>
-</div>
-</div></p>
-<div class="w3-card-2" id="lr">
-<p><header class="w3-container w3-black ">
-<h3>Literature Review</h3>
-</header></p>
-<p><div class="w3-bar">
-<button onclick="openMatrix('lrDesc')" class="w3-bar-item w3-button">Description</button>
-<button onclick="openMatrix('lrSearch')" class="w3-bar-item w3-button">Search</button>
-<button onclick="openMatrix('lrApp')" class="w3-bar-item w3-button">Appraisal</button>
-<button onclick="openMatrix('lrSyn')" class="w3-bar-item w3-button">Synthesis</button>
-<button onclick="openMatrix('lrAnls')" class="w3-bar-item w3-button">Analysis</button>
-</div></p>
-<p><div class="w3-container matrix" id="lrDesc">
+</dd></p>
+<p><dt><button onclick="accordion('lr')" class="w3-button w3-block w3-blue-grey w3-left-align w3-border-bottom w3-border-white">Literature Review</button></dt></p>
+<p><dd id="lr" class="w3-container w3-hide">
 <h4>Description</h4>
-<p >Generic term: published materials that provide examination of recent or current literature. Can cover wide range of subjects at various levels of completeness and comprehensiveness. May include research findings.</p>
-</div></p>
-<p><div class="w3-container matrix" id="lrSearch" style="display:none">
+<p>Generic term: published materials that provide examination of recent or current literature. Can cover wide range of subjects at various levels of completeness and comprehensiveness. May include research findings.</p>
 <h4>Search</h4>
 <p>May or may not include comprehensive searching.</p>
-</div></p>
-<p><div class="w3-container matrix " id="lrApp" style="display:none">
 <h4>Appraisal</h4>
 <p>May or may not include quality assessment.</p>
-</div></p>
-<p><div class="w3-container matrix " id="lrSyn" style="display:none">
 <h4>Synthesis</h4>
 <p>Typically narrative.</p>
-</div></p>
-<p><div class="w3-container matrix " id="lrAnls" style="display:none">
 <h4>Analysis</h4>
 <p>Analysis may be chronological, conceptual, thematic, etc.</p>
-</div>
-</div></p>
-<div class="w3-card-2" id="mr">
-<p><header class="w3-container w3-black ">
-<h3>Mapping Review/ Systematic Map</h3>
-</header></p>
-<p><div class="w3-bar">
-<button onclick="openMatrix('mrDesc')" class="w3-bar-item w3-button">Description</button>
-<button onclick="openMatrix('mrSearch')" class="w3-bar-item w3-button">Search</button>
-<button onclick="openMatrix('mrApp')" class="w3-bar-item w3-button">Appraisal</button>
-<button onclick="openMatrix('mrSyn')" class="w3-bar-item w3-button">Synthesis</button>
-<button onclick="openMatrix('mrAnls')" class="w3-bar-item w3-button">Analysis</button>
-</div></p>
-<p><div class="w3-container matrix" id="mrDesc">
+</dd></p>
+<p><dt><button onclick="accordion('mr')" class="w3-button w3-block w3-blue-grey w3-left-align w3-border-bottom w3-border-white">Mapping Review/ Systematic Map</button></dt></p>
+<p><dd id="mr" class="w3-container w3-hide">
 <h4>Description</h4>
-<p >Map out and categorize existing literature from which to commission further reviews and/or primary research by identifying gaps in research literature.</p>
-</div></p>
-<p><div class="w3-container matrix" id="mrSearch" style="display:none">
+<p>Map out and categorize existing literature from which to commission further reviews and/or primary research by identifying gaps in research literature.</p>
 <h4>Search</h4>
 <p>Completeness of searching determined by time/scope constraint.</p>
-</div></p>
-<p><div class="w3-container matrix " id="mrApp" style="display:none">
 <h4>Appraisal</h4>
 <p>No formal quality assessment.</p>
-</div></p>
-<p><div class="w3-container matrix " id="mrSyn" style="display:none">
 <h4>Synthesis</h4>
 <p>May be graphical and tabular.</p>
-</div></p>
-<p><div class="w3-container matrix " id="mrAnls" style="display:none">
 <h4>Analysis</h4>
 <p>Characterizes quantity and quality of literature, perhaps by study design and other key features. May identify need for primary or secondary research.</p>
-</div>
-</div></p>
-<div class="w3-card-2" id="ma">
-<p><header class="w3-container w3-black ">
-<h3>Meta-Analysis</h3>
-</header></p>
-<p><div class="w3-bar">
-<button onclick="openMatrix('maDesc')" class="w3-bar-item w3-button">Description</button>
-<button onclick="openMatrix('maSearch')" class="w3-bar-item w3-button">Search</button>
-<button onclick="openMatrix('maApp')" class="w3-bar-item w3-button">Appraisal</button>
-<button onclick="openMatrix('maSyn')" class="w3-bar-item w3-button">Synthesis</button>
-<button onclick="openMatrix('maAnls')" class="w3-bar-item w3-button">Analysis</button>
-</div></p>
-<p><div class="w3-container matrix" id="maDesc">
+</dd></p>
+<p><dt><button onclick="accordion('ma')" class="w3-button w3-block w3-blue-grey w3-left-align w3-border-bottom w3-border-white">Meta-Analysis</button></dt></p>
+<p><dd id="ma" class="w3-container w3-hide">
 <h4>Description</h4>
-<p >Technique that statistically combines the results of quantitative studies to provide a more precise effect of the results.</p>
-</div></p>
-<p><div class="w3-container matrix" id="maSearch" style="display:none">
+<p>Technique that statistically combines the results of quantitative studies to provide a more precise effect of the results.</p>
 <h4>Search</h4>
 <p>Aims for exhaustive, comprehensive searching. May use funnel plot to assess completeness.</p>
-</div></p>
-<p><div class="w3-container matrix " id="maApp" style="display:none">
 <h4>Appraisal</h4>
 <p>Quality assessment may determine inclusion/ exclusion and/or sensitivity analyses.</p>
-</div></p>
-<p><div class="w3-container matrix " id="maSyn" style="display:none">
 <h4>Synthesis</h4>
 <p>Graphical and tabular with narrative commentary.</p>
-</div></p>
-<p><div class="w3-container matrix " id="maAnls" style="display:none">
 <h4>Analysis</h4>
 <p>Numerical analysis of measures of effect assuming absence of heterogeneity.</p>
-</div>
-</div></p>
-<div class="w3-card-2" id="ms">
-<p><header class="w3-container w3-black ">
-<h3>Mixed Studies Review/Mixed Methods Review</h3>
-</header></p>
-<p><div class="w3-bar">
-<button onclick="openMatrix('msDesc')" class="w3-bar-item w3-button">Description</button>
-<button onclick="openMatrix('msSearch')" class="w3-bar-item w3-button">Search</button>
-<button onclick="openMatrix('msApp')" class="w3-bar-item w3-button">Appraisal</button>
-<button onclick="openMatrix('msSyn')" class="w3-bar-item w3-button">Synthesis</button>
-<button onclick="openMatrix('msAnls')" class="w3-bar-item w3-button">Analysis</button>
-</div></p>
-<p><div class="w3-container matrix" id="msDesc">
+</dd></p>
+<p><dt><button onclick="accordion('ms')" class="w3-button w3-block w3-blue-grey w3-left-align w3-border-bottom w3-border-white">Mixed Studies Review/Mixed Methods Review</button></dt></p>
+<p><dd id="ms" class="w3-container w3-hide">
 <h4>Description</h4>
-<p >Refers to any combination of methods where one significant component is a literature review (usually systematic). Within a review context it refers to a combination of review approaches for example combining quantitative with qualitative research or outcome with process studies.</p>
-</div></p>
-<p><div class="w3-container matrix" id="msSearch" style="display:none">
+<p>Refers to any combination of methods where one significant component is a literature review (usually systematic). Within a review context it refers to a combination of review approaches for example combining quantitative with qualitative research or outcome with process studies.</p>
 <h4>Search</h4>
 <p>Requires either very sensitive search to retrieve all studies or separately conceived quantitative and qualitative strategies.</p>
-</div></p>
-<p><div class="w3-container matrix " id="msApp" style="display:none">
 <h4>Appraisal</h4>
 <p>Requires either a generic appraisal instrument or separate appraisal processes with corresponding checklists.</p>
-</div></p>
-<p><div class="w3-container matrix " id="msSyn" style="display:none">
 <h4>Synthesis</h4>
 <p>Typically both components will be presented as narrative and in tables. May also employ graphical means of integrating quantitative and qualitative studies.</p>
-</div></p>
-<p><div class="w3-container matrix " id="msAnls" style="display:none">
 <h4>Analysis</h4>
 <p>Analysis may characterise both literatures and look for correlations between characteristics or use gap analysis to identify aspects absent in one literature but missing in the other.</p>
-</div>
-</div></p>
-<div class="w3-card-2" id="ov">
-<p><header class="w3-container w3-black ">
-<h3>Overview</h3>
-</header></p>
-<p><div class="w3-bar">
-<button onclick="openMatrix('ovDesc')" class="w3-bar-item w3-button">Description</button>
-<button onclick="openMatrix('ovSearch')" class="w3-bar-item w3-button">Search</button>
-<button onclick="openMatrix('ovApp')" class="w3-bar-item w3-button">Appraisal</button>
-<button onclick="openMatrix('ovSyn')" class="w3-bar-item w3-button">Synthesis</button>
-<button onclick="openMatrix('ovAnls')" class="w3-bar-item w3-button">Analysis</button>
-</div></p>
-<p><div class="w3-container matrix" id="ovDesc">
+</dd></p>
+<p><dt><button onclick="accordion('ov')" class="w3-button w3-block w3-blue-grey w3-left-align w3-border-bottom w3-border-white">Overview</button></dt></p>
+<p><dd id="ov" class="w3-container w3-hide">
 <h4>Description</h4>
-<p >Generic term: summary of the [medical] literature that attempts to survey the literature and describe its characteristics.</p>
-</div></p>
-<p><div class="w3-container matrix" id="ovSearch" style="display:none">
+<p>Generic term: summary of the [medical] literature that attempts to survey the literature and describe its characteristics.</p>
 <h4>Search</h4>
 <p>May or may not include comprehensive searching (depends whether systematic overview or not).</p>
-</div></p>
-<p><div class="w3-container matrix " id="ovApp" style="display:none">
 <h4>Appraisal</h4>
 <p>May or may not include quality assessment (depends whether systematic overview or not).</p>
-</div></p>
-<p><div class="w3-container matrix " id="ovSyn" style="display:none">
 <h4>Synthesis</h4>
 <p>Synthesis depends on whether systematic or not. Typically narrative but may include tabular features.</p>
-</div></p>
-<p><div class="w3-container matrix " id="ovAnls" style="display:none">
 <h4>Analysis</h4>
 <p>Analysis may be chronological, conceptual, thematic, etc.</p>
-</div>
-</div></p>
-<div class="w3-card-2" id="qs">
-<p><header class="w3-container w3-black ">
-<h3>Qualitative Systematic Review/Qualitative Evidence Synthesis</h3>
-</header></p>
-<p><div class="w3-bar">
-<button onclick="openMatrix('qsDesc')" class="w3-bar-item w3-button">Description</button>
-<button onclick="openMatrix('qsSearch')" class="w3-bar-item w3-button">Search</button>
-<button onclick="openMatrix('qsApp')" class="w3-bar-item w3-button">Appraisal</button>
-<button onclick="openMatrix('qsSyn')" class="w3-bar-item w3-button">Synthesis</button>
-<button onclick="openMatrix('qsAnls')" class="w3-bar-item w3-button">Analysis</button>
-</div></p>
-<p><div class="w3-container matrix" id="qsDesc">
+</dd></p>
+<p><dt><button onclick="accordion('qs')" class="w3-button w3-block w3-blue-grey w3-left-align w3-border-bottom w3-border-white">Qualitative Systematic Review/Qualitative Evidence Synthesis</button></dt></p>
+<p><dd id="qs" class="w3-container w3-hide">
 <h4>Description</h4>
-<p >Method for integrating or comparing the findings from qualitative studies. It looks for 'themes' or 'constructs' that lie in or across individual qualitative studies.</p>
-</div></p>
-<p><div class="w3-container matrix" id="qsSearch" style="display:none">
+<p>Method for integrating or comparing the findings from qualitative studies. It looks for 'themes' or 'constructs' that lie in or across individual qualitative studies.</p>
 <h4>Search</h4>
 <p>May employ selective or purposive sampling.</p>
-</div></p>
-<p><div class="w3-container matrix " id="qsApp" style="display:none">
 <h4>Appraisal</h4>
 <p>Quality assessment typically used to mediate messages not for inclusion/exclusion.</p>
-</div></p>
-<p><div class="w3-container matrix " id="qsSyn" style="display:none">
 <h4>Synthesis</h4>
 <p>Qualitative, narrative synthesis.</p>
-</div></p>
-<p><div class="w3-container matrix " id="qsAnls" style="display:none">
 <h4>Analysis</h4>
 <p>Thematic analysis, may include conceptual models.</p>
-</div>
-</div></p>
-<div class="w3-card-2" id="rr">
-<p><header class="w3-container w3-black ">
-<h3>Rapid Review</h3>
-</header></p>
-<p><div class="w3-bar">
-<button onclick="openMatrix('rrDesc')" class="w3-bar-item w3-button">Description</button>
-<button onclick="openMatrix('rrSearch')" class="w3-bar-item w3-button">Search</button>
-<button onclick="openMatrix('rrApp')" class="w3-bar-item w3-button">Appraisal</button>
-<button onclick="openMatrix('rrSyn')" class="w3-bar-item w3-button">Synthesis</button>
-<button onclick="openMatrix('rrAnls')" class="w3-bar-item w3-button">Analysis</button>
-</div></p>
-<p><div class="w3-container matrix" id="rrDesc">
+</dd></p>
+<p><dt><button onclick="accordion('rr')" class="w3-button w3-block w3-blue-grey w3-left-align w3-border-bottom w3-border-white">Rapid Review</button></dt></p>
+<p><dd id="rr" class="w3-container w3-hide">
 <h4>Description</h4>
-<p >Assessment of what is already known about a policy or practice issue, by using systematic review methods to search and critically appraise existing research.</p>
-</div></p>
-<p><div class="w3-container matrix" id="rrSearch" style="display:none">
+<p>Assessment of what is already known about a policy or practice issue, by using systematic review methods to search and critically appraise existing research.</p>
 <h4>Search</h4>
 <p>Completeness of searching determined by time constraints.</p>
-</div></p>
-<p><div class="w3-container matrix " id="rrApp" style="display:none">
 <h4>Appraisal</h4>
 <p>Time-limited formal quality assessment.</p>
-</div></p>
-<p><div class="w3-container matrix " id="rrSyn" style="display:none">
 <h4>Synthesis</h4>
 <p>Typically narrative and tabular.</p>
-</div></p>
-<p><div class="w3-container matrix " id="rrAnls" style="display:none">
 <h4>Analysis</h4>
 <p>Quantities of literature and overall quality/direction of effect of literature.</p>
-</div>
-</div></p>
-<div class="w3-card-2" id="sr">
-<p><header class="w3-container w3-black ">
-<h3>Scoping Review</h3>
-</header></p>
-<p><div class="w3-bar">
-<button onclick="openMatrix('srDesc')" class="w3-bar-item w3-button">Description</button>
-<button onclick="openMatrix('srSearch')" class="w3-bar-item w3-button">Search</button>
-<button onclick="openMatrix('srApp')" class="w3-bar-item w3-button">Appraisal</button>
-<button onclick="openMatrix('srSyn')" class="w3-bar-item w3-button">Synthesis</button>
-<button onclick="openMatrix('srAnls')" class="w3-bar-item w3-button">Analysis</button>
-</div></p>
-<p><div class="w3-container matrix" id="srDesc">
+</dd></p>
+<p><dt><button onclick="accordion('sr')" class="w3-button w3-block w3-blue-grey w3-left-align w3-border-bottom w3-border-white">Scoping Review</button></dt></p>
+<p><dd id="sr" class="w3-container w3-hide">
 <h4>Description</h4>
-<p >Preliminary assessment of potential size and scope of available research literature. Aims to identify nature and extent of research evidence (usually including ongoing research).</p>
-</div></p>
-<p><div class="w3-container matrix" id="srSearch" style="display:none">
+<p>Preliminary assessment of potential size and scope of available research literature. Aims to identify nature and extent of research evidence (usually including ongoing research).</p>
 <h4>Search</h4>
 <p>Completeness of searching determined by time/scope constraints. May include research in progress.</p>
-</div></p>
-<p><div class="w3-container matrix " id="srApp" style="display:none">
 <h4>Appraisal</h4>
 <p>No formal quality assessment.</p>
-</div></p>
-<p><div class="w3-container matrix " id="srSyn" style="display:none">
 <h4>Synthesis</h4>
 <p>Typically tabular with some narrative commentary.</p>
-</div></p>
-<p><div class="w3-container matrix " id="srAnls" style="display:none">
 <h4>Analysis</h4>
 <p>Characterizes quantity and quality of literature, perhaps by study design and other key features. Attempts to specify a viable review.</p>
-</div>
-</div></p>
-<div class="w3-card-2" id="sar">
-<p><header class="w3-container w3-black ">
-<h3>State-Of-The-Art Review</h3>
-</header></p>
-<p><div class="w3-bar">
-<button onclick="openMatrix('sarDesc')" class="w3-bar-item w3-button">Description</button>
-<button onclick="openMatrix('sarSearch')" class="w3-bar-item w3-button">Search</button>
-<button onclick="openMatrix('sarApp')" class="w3-bar-item w3-button">Appraisal</button>
-<button onclick="openMatrix('sarSyn')" class="w3-bar-item w3-button">Synthesis</button>
-<button onclick="openMatrix('sarAnls')" class="w3-bar-item w3-button">Analysis</button>
-</div></p>
-<p><div class="w3-container matrix" id="sarDesc">
+</dd></p>
+<p><dt><button onclick="accordion('sar')" class="w3-button w3-block w3-blue-grey w3-left-align w3-border-bottom w3-border-white">State-Of-The-Art Review</button></dt></p>
+<p><dd id="sar" class="w3-container w3-hide">
 <h4>Description</h4>
-<p >Tend to address more current matters in contrast to other combined retrospective and current approaches. May offer new perspectives.</p>
-</div></p>
-<p><div class="w3-container matrix" id="sarSearch" style="display:none">
+<p>Tend to address more current matters in contrast to other combined retrospective and current approaches. May offer new perspectives.</p>
 <h4>Search</h4>
 <p>Aims for comprehensive searching of current literature.</p>
-</div></p>
-<p><div class="w3-container matrix " id="sarApp" style="display:none">
 <h4>Appraisal</h4>
 <p>No formal quality assessment.</p>
-</div></p>
-<p><div class="w3-container matrix " id="sarSyn" style="display:none">
 <h4>Synthesis</h4>
 <p>Typically narrative, may have tabular accompaniment.</p>
-</div></p>
-<p><div class="w3-container matrix " id="sarAnls" style="display:none">
 <h4>Analysis</h4>
 <p>Current state of knowledge and priorities for future investigation and research.</p>
-</div>
-</div></p>
-<div class="w3-card-2" id="syr">
-<p><header class="w3-container w3-black ">
-<h3>Systematic Review</h3>
-</header></p>
-<p><div class="w3-bar">
-<button onclick="openMatrix('syrDesc')" class="w3-bar-item w3-button">Description</button>
-<button onclick="openMatrix('syrSearch')" class="w3-bar-item w3-button">Search</button>
-<button onclick="openMatrix('syrApp')" class="w3-bar-item w3-button">Appraisal</button>
-<button onclick="openMatrix('syrSyn')" class="w3-bar-item w3-button">Synthesis</button>
-<button onclick="openMatrix('syrAnls')" class="w3-bar-item w3-button">Analysis</button>
-</div></p>
-<p><div class="w3-container matrix" id="syrDesc">
+</dd></p>
+<p><dt><button onclick="accordion('syr')" class="w3-button w3-block w3-blue-grey w3-left-align w3-border-bottom w3-border-white">Systematic Review</button></dt></p>
+<p><dd id="syr" class="w3-container w3-hide">
 <h4>Description</h4>
-<p >Seeks to systematically search for, appraise and synthesis research evidence, often adhering to guidelines on the conduct of a review.</p>
-</div></p>
-<p><div class="w3-container matrix" id="syrSearch" style="display:none">
+<p>Seeks to systematically search for, appraise and synthesis research evidence, often adhering to guidelines on the conduct of a review.</p>
 <h4>Search</h4>
 <p>Aims for exhaustive, comprehensive searching.</p>
-</div></p>
-<p><div class="w3-container matrix " id="syrApp" style="display:none">
 <h4>Appraisal</h4>
 <p>Quality assessment may determine inclusion/exclusion.</p>
-</div></p>
-<p><div class="w3-container matrix " id="syrSyn" style="display:none">
 <h4>Synthesis</h4>
 <p>Typically narrative with tabular accompaniment.</p>
-</div></p>
-<p><div class="w3-container matrix " id="syrAnls" style="display:none">
 <h4>Analysis</h4>
 <p>What is known; recommendations for practice. What remains unknown; uncertainty around findings, recommendations for future research.</p>
-</div>
-</div></p>
-<div class="w3-card-2" id="sysr">
-<p><header class="w3-container w3-black ">
-<h3>Systematic Search and Review</h3>
-</header></p>
-<p><div class="w3-bar">
-<button onclick="openMatrix('sysrDesc')" class="w3-bar-item w3-button">Description</button>
-<button onclick="openMatrix('sysrSearch')" class="w3-bar-item w3-button">Search</button>
-<button onclick="openMatrix('sysrApp')" class="w3-bar-item w3-button">Appraisal</button>
-<button onclick="openMatrix('sysrSyn')" class="w3-bar-item w3-button">Synthesis</button>
-<button onclick="openMatrix('sysrAnls')" class="w3-bar-item w3-button">Analysis</button>
-</div></p>
-<p><div class="w3-container matrix" id="sysrDesc">
+</dd></p>
+<p><dt><button onclick="accordion('sysr')" class="w3-button w3-block w3-blue-grey w3-left-align w3-border-bottom w3-border-white">Systematic Search and Review</button></dt></p>
+<p><dd id="sysr" class="w3-container w3-hide">
 <h4>Description</h4>
-<p >Combines strengths of critical review with a comprehensive search process. Typically addresses broad questions to produce 'best evidence synthesis'.</p>
-</div></p>
-<p><div class="w3-container matrix" id="sysrSearch" style="display:none">
+<p>Combines strengths of critical review with a comprehensive search process. Typically addresses broad questions to produce 'best evidence synthesis'.</p>
 <h4>Search</h4>
 <p>Aims for exhaustive, comprehensive searching.</p>
-</div></p>
-<p><div class="w3-container matrix " id="sysrApp" style="display:none">
 <h4>Appraisal</h4>
 <p>May or may not include quality assessment.</p>
-</div></p>
-<p><div class="w3-container matrix " id="sysrSyn" style="display:none">
 <h4>Synthesis</h4>
 <p>Minimal narrative, tabular summary of studies.</p>
-</div></p>
-<p><div class="w3-container matrix " id="sysrAnls" style="display:none">
 <h4>Analysis</h4>
 <p>What is known; recommendations for practice. Limitations.</p>
-</div>
-</div></p>
-<div class="w3-card-2" id="syzr">
-<p><header class="w3-container w3-black ">
-<h3>Systematized Review</h3>
-</header></p>
-<p><div class="w3-bar">
-<button onclick="openMatrix('syzrDesc')" class="w3-bar-item w3-button">Description</button>
-<button onclick="openMatrix('syzrSearch')" class="w3-bar-item w3-button">Search</button>
-<button onclick="openMatrix('syzrApp')" class="w3-bar-item w3-button">Appraisal</button>
-<button onclick="openMatrix('syzrSyn')" class="w3-bar-item w3-button">Synthesis</button>
-<button onclick="openMatrix('syzrAnls')" class="w3-bar-item w3-button">Analysis</button>
-</div></p>
-<p><div class="w3-container matrix" id="syzrDesc">
+</dd></p>
+<p><dt><button onclick="accordion('syzr')" class="w3-button w3-block w3-blue-grey w3-left-align w3-border-bottom w3-border-white">Systematized Review</button></dt></p>
+<p><dd id="syzr" class="w3-container w3-hide">
 <h4>Description</h4>
-<p >Attempt to include elements of systematic review process while stopping short of systematic review. Typically conducted as postgraduate student assignment.</p>
-</div></p>
-<p><div class="w3-container matrix" id="syzrSearch" style="display:none">
+<p>Attempt to include elements of systematic review process while stopping short of systematic review. Typically conducted as postgraduate student assignment.</p>
 <h4>Search</h4>
 <p>May or may not include comprehensive searching.</p>
-</div></p>
-<p><div class="w3-container matrix " id="syzrApp" style="display:none">
 <h4>Appraisal</h4>
 <p>May or may not include quality assessment.</p>
-</div></p>
-<p><div class="w3-container matrix " id="syzrSyn" style="display:none">
 <h4>Synthesis</h4>
 <p>Typically narrative with tabular accompaniment.</p>
-</div></p>
-<p><div class="w3-container matrix " id="syzrAnls" style="display:none">
 <h4>Analysis</h4>
 <p>What is known; uncertainty around findings; limitations of methodology.</p>
-</div>
-</div></p>
-<div class="w3-card-2" id="ur">
-<p><header class="w3-container w3-black ">
-<h3>Umbrella Review</h3>
-</header></p>
-<p><div class="w3-bar">
-<button onclick="openMatrix('urDesc')" class="w3-bar-item w3-button">Description</button>
-<button onclick="openMatrix('urSearch')" class="w3-bar-item w3-button">Search</button>
-<button onclick="openMatrix('urApp')" class="w3-bar-item w3-button">Appraisal</button>
-<button onclick="openMatrix('urSyn')" class="w3-bar-item w3-button">Synthesis</button>
-<button onclick="openMatrix('urAnls')" class="w3-bar-item w3-button">Analysis</button>
-</div></p>
-<p><div class="w3-container matrix" id="urDesc">
+</dd></p>
+<p><dt><button onclick="accordion('ur')" class="w3-button w3-block w3-blue-grey w3-left-align w3-border-bottom w3-border-white">Umbrella Review</button></dt></p>
+<p><dd id="ur" class="w3-container w3-hide">
 <h4>Description</h4>
-<p >Specifically refers to review compiling evidence from multiple reviews into one accessible and usable document. Focuses on broad condition or problem for which there are competing interventions and highlights reviews that address these interventions and their results.</p>
-</div></p>
-<p><div class="w3-container matrix" id="urSearch" style="display:none">
+<p>Specifically refers to review compiling evidence from multiple reviews into one accessible and usable document. Focuses on broad condition or problem for which there are competing interventions and highlights reviews that address these interventions and their results.</p>
 <h4>Search</h4>
 <p>Identification of component reviews, but no search for primary studies.</p>
-</div></p>
-<p><div class="w3-container matrix " id="urApp" style="display:none">
 <h4>Appraisal</h4>
 <p>Quality assessment of studies within component reviews and/or of reviews themselves.</p>
-</div></p>
-<p><div class="w3-container matrix " id="urSyn" style="display:none">
 <h4>Synthesis</h4>
 <p>Graphical and tabular with narrative commentary.</p>
-</div></p>
-<p><div class="w3-container matrix " id="urAnls" style="display:none">
 <h4>Analysis</h4>
 <p>What is known; recommendations for practice. What remains unknown; recommendations for future research.</p>
-</div>
-</div></p>
+</dd></p>
+<p></dl></p>
 <h3 id="process-of-literature-review" tabindex="-1">Process of Literature Review</h3>
 <p>This diagram provides a visual representation of the sequential steps involved in conducting a literature review. It serves as a useful reference for anyone engaged in the literature review process.</p>
 

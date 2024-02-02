@@ -9,6 +9,7 @@ function w3_close() {
   document.getElementById("myOverlay").style.display = "none";
 }
 
+// Accordion 
 
 function accordion(id) {
   var x = document.getElementById(id);
@@ -18,6 +19,8 @@ function accordion(id) {
     x.className = x.className.replace(" w3-show", "");
   }
 }
+
+// Matrix
 
 function openMatrix(matrixname) {
   var i;
