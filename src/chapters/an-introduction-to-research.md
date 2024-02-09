@@ -13,9 +13,9 @@ teaser:
 
 Research supports practitioners in providing the best possible and most effective care to the people they serve. Available evidence suggests that research-active healthcare organisations have lower mortality rates, increased treatment options and better patient satisfaction than those that are not.  This chapter aims to provide an introduction to research, the research process and the importance of research. it will also provide an overview of the subsequent chapters. 
 
-<div class="w3-panel w3-leftbar w3-sand">
-<p class="w3-large">Research refers to the systematic exploration of issues to understand complexities and find practical solutions. It aims to develop generalizable or transferable new knowledge with the goal of improving practices"</p>
-(National Institute for Health and Care Research, 2022).
+<div class="w3-panel w3-leftbar w3-teal">
+<p class="w3-large">"Research refers to the systematic exploration of issues to understand complexities and find practical solutions. It aims to develop generalizable or transferable new knowledge with the goal of improving practices"</p>
+<p>(National Institute for Health and Care Research, 2022).</p>
 </div>
 
 Research is a carefully planned and systematic process. It's like exploring uncharted territory to discover new things and find better ways of doing things. In simple terms, research helps us figure out complex issues and come up with practical solutions. The goal is to create knowledge that can be used to improve how things are done, especially in healthcare.

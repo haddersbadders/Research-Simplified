@@ -107,3 +107,55 @@ Click on the terms below to explore, understand and distinguish between various 
 ### Process of Literature Review
 
 This diagram provides a visual representation of the sequential steps involved in conducting a literature review. It serves as a useful reference for anyone engaged in the literature review process.
+
+<div class="w3-panel w3-teal"> 
+<img src="/images/Process-Literature-Review.png" alt="flowchart of the process of a literature review" />
+
+<ol>
+<li><strong>Select Topic:</strong> Choose a research topic relevant to your field of study or practice.
+Conduct a comprehensive search of relevant literature using databases, journals, and other sources.</li>
+<li><strong>Apply Criteria:</strong> Define inclusion and exclusion criteria to select the most relevant sources.</li>
+<li> <strong>Review and Analyze Literature:</strong> Read and critically assess the selected literature to understand the key findings and methodologies.</li>
+<li><strong>Synthesise Findings:</strong> Identify common themes, trends, and patterns in the literature.</li>
+<li><strong>Evaluate and Appraise Literature:</strong> Assess the quality and reliability of the studies and acknowledge strengths and weaknesses.</li>
+<li><strong>Organise and Write Review:</strong> Structure your review with clear headings, and write a comprehensive, organised document.</li>
+<li><strong>Conclude:</strong> Summarise the key takeaways and implications of the literature review.</li>
+</ol>
+</div>
+
+## Stages in Literature Searching
+
+### Developing Review Question
+
+Developing a research question for a literature review is a crucial step in the process. A well-crafted question guides your literature search and shapes the focus of your review. Here's how to develop a research question and an overview of different types of question development frameworks:
+
+#### Steps to Develop a Research Question 
+
+1. **Choose a Broad Topic:** Start with a general topic that interests you or is relevant to your field. It should be broad enough to provide a range of literature but not too broad to be unmanageable.
+2. **Review Existing Literature:** Before finalising your question, conduct some preliminary research to familiarise yourself with the existing literature. This will help you identify gaps and refine your focus.
+3. **Determine the Key Elements:** Identify the key elements or concepts within your topic. What are the essential components of the subject you want to explore?
+4. **Formulate the Question:** Your research question should be clear, concise, and specific. It should focus on a particular aspect of the topic. Consider using question words like "what," "how," "why," "to what extent," or "in what way."
+5. **Consider the Scope:** Ensure that your question isn't too broad or too narrow. It should be manageable within the scope of your literature review.
+6. **Evaluate the Relevance:** Ask yourself whether the question is relevant to your field and research goals. It should contribute to the existing body of knowledge.
+7. **Test the Feasibility:** Make sure that you can find enough literature to answer your question. If you can't locate relevant sources, consider revising your question.
+8. **Refine and Revise:** It's common to refine and revise your question as you progress in your literature review. Don't be afraid to adapt it based on your findings and emerging insights.
+
+### Question Development Framework
+
+Asking a specific and focused question is a challenging task and to make this easy there are various frameworks that have been proposed to help practitioners develop a specific, focused and answerable question. The most widely used framework, in this respect, is **PICO**. This framework is commonly used in healthcare and clinical research. It stands for Patient/Population, Intervention, Comparison, and Outcome. 
+
+**PICOT:** It is a similar framework but with an added dimension of **Time**; It stands for Patient/Population, Intervention, Comparison, Outcome, and Time. It helps structure questions related to healthcare interventions, treatments, and outcomes.
+
+#### PICO - To guide the development of your research question
+
+{% include "partials/pico-table.html" %}
+
+There are other frameworks that can be used to help formulate research questions.  The important point to remember is that these frameworks are only a guide - they can help the researcher shape the question but will not provide ideas in justification for a good review question. The other two commonly used question development frameworks are SPIDER and SPICE.
+
+**SPIDER:** This framework is often used in healthcare research and social sciences to develop well-structured and focused research questions for systematic reviews, scoping reviews, or other types of research. It stands for Sample of Setting, Phenomenon of Interest (research problem), Design, Evaluation, and Research type. 
+
+**SPICE:** This framework is useful in social science research. It stands for Setting, Perspective, Intervention, Comparison, and Evaluation. It's particularly helpful when exploring complex social issues and policies.
+
+These are exemplified below.
+
+

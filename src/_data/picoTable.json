@@ -1,0 +1,32 @@
+{
+    "items": [
+
+        {
+            "letter": "P",
+            "term": "Population or Problem",
+            "description": "Identifying if research has a focused question.\n\n E.g., Disease status, or current medication.\n Who is the patient?\n What is the problem?",
+            "example": "<strong>People</strong> with <strong>Back Pain</strong>"
+        },
+
+        {
+            "letter": "I",
+            "term": "Intervention or Issue",
+            "description": "Stating clearly management strategy.\n\n E.g., treatment, What is the intervention being considered?",
+            "example": "Analgesic and Exercise"
+        },
+
+        {
+            "letter": "C",
+            "term": "Comparison or Context",
+            "description": "What are other alternatives/controls?",
+            "example": "Bed rest"
+        },
+
+        {
+            "letter": "O",
+            "term": "Outcome",
+            "description": "The desired outcome or patient consequence. \n\n E.g., eliminating symptoms.\n What will you get (outcome) after the intervention?",
+            "example": "No back pain"
+        }
+    ]
+}

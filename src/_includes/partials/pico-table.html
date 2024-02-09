@@ -1,0 +1,16 @@
+<table class="w3-table-all">
+    <tr>
+      <th>&nbsp;</th>
+      <th>Term</th>
+      <th>Description</th>
+      <th>Example</th>
+    </tr>
+    {% for item in picoTable.items %}
+    <tr>
+      <td><strong>{{ item.letter }}</strong></td>
+      <td>{{ item.term }}</td>
+      <td>{{ item.description | safe }}</td>
+      <td>{{ item.example | safe }}</td>
+    </tr>
+    {% endfor %}
+  </table>

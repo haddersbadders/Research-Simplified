@@ -14,9 +14,7 @@ module.exports = config => {
     config.addPassthroughCopy('./src/images/');
     config.addPassthroughCopy('./src/js/');
     config.addPassthroughCopy('./src/css/');
-    
-    config.setLibrary("md", markdownIt(markdownItOptions).use(markdownItAnchor, markdownItAnchorOptions))
-    
+    config.setLibrary("md", markdownIt(markdownItOptions).use(markdownItAnchor, markdownItAnchorOptions));
  
 
     // Returns work items, sorted by display order
