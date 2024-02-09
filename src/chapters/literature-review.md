@@ -159,3 +159,30 @@ There are other frameworks that can be used to help formulate research questions
 These are exemplified below.
 
 
+<!-- Complex Table goes in here -->
+
+Another model is called ECLIPSE that is mainly used to develop questions related to health policy and management. The framework refers to Expectation, Client group, Location, Impact/ Intervention, Professional, Service/ Study Design and Evaluation. 
+
+Try and use these frameworks to develop your review question. Find a template here to use
+
+As already suggested, before starting a search of the literature, you need to determine what you are trying to find out about and what level of information is needed. 
+
+### Search for Literature
+
+Once you have developed a specific and answerable question, the next step is to find appropriate evidence to answer that question. Finding appropriate evidence can become a very complicated and a cumbersome task if you do not follow a systematic process. A process with smaller steps to enable you to identify the appropriate number of articles/ research studies that you can evaluate.  To do this, you need to follow a few steps and these include:
+
+1. **Develop a search strategy**: This means identifying various search terms that you think will help you find appropriate evidence. It is about thinking about alternative spellings and synonyms for each component of your PICO to ensure maximum search results. 
+
+2. **Use Boolean Operators**: When searching in databases or search engines, employ Boolean operators like "AND," "OR," and "NOT" to combine or exclude keywords. This can help you refine your search.
+
+3. **Utilise Filters and Advanced Search Options**: Many databases provide advanced search options and filters. You can use these to narrow down your results by date, type of publication, language, and more.
+4. **Identify Appropriate Databases**: Databases are structured collections of information, and they are often the first place to start your search. These can be subject-specific databases, such as PubMed for medical research, IEEE Xplore for engineering, or PsycINFO for psychology. General databases like Google Scholar, JSTOR, or Scopus are also commonly used for broader searches. You use these databases to input search terms, keywords, or phrases related to your research topic.
+
+
+{% include "partials/booleanTable.html" %}
+
+### Sources of literature
+
+Four common approaches to finding evidence that fits with your inclusion criteria:
+
+<!-- Sources table -->

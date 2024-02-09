@@ -1,0 +1,27 @@
+{
+    "items": [
+    {
+        "operator": "AND",
+        "examples": "Obesity and exercise",
+        "how": "AND Searches for two terms and hence narrows the search. When you use AND - It will retrieve results that have both words.",
+        "results": "obesity-and-exercise-venn.png",
+        "alt": "Venn diagram of obesity AND exercise"
+    },
+
+    {
+        "operator": "OR",
+        "examples": "Hospital OR Healthcare",
+        "how": "OR Searches for two or more terms and hence expands the search. When you use OR - It will retrieve results that have either word. It is useful for capturing synonymous.",
+        "results": "hospital-or-healthcare-venn.png",
+        "alt": "Venn diagram of Hostpital OR Healthcare"
+    },
+
+    {
+        "operator": "NOT",
+        "search": "Practitioners NOT Doctors",
+        "how": "NOT Excludes a term or terms from search and hence narrows the search. When you use NOT - it will only retrieve result of primary term (s).",
+        "results": "Practitioners-NOT-Doctors-venn.png",
+        "alt": "venn diagram of Practitioners NOT Doctors"
+    }
+]
+}

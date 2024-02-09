@@ -1,0 +1,17 @@
+<table class="w3-table-all">
+    <tr>
+      <th>Boolean operator</th>
+      <th>Search examples</th>
+      <th>How it works</th>
+      <th>Results</th>
+    </tr>
+    {% for item in booleanTable.items %}
+    <tr>
+      <td>{{ item.operator }}</td>
+      <td>{{ item.examples }}</td>
+      <td>{{ item.how }}</td>
+      <td width="33%"><img src="/images/{{ item.results }}" alt="{{ item.alt }}" /></td>
+    </tr>
+    {% endfor %}
+  </table>
+
