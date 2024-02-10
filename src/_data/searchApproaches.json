@@ -1,0 +1,20 @@
+{
+    "items": [
+        {
+            "approach": "Electronic Searching",
+            "description": "This involves using databases, search engines, and online resources to find academic articles, papers, and research on a specific topic.\n\n Internet-accessible online bibliographical databases are valuable sources of general references"
+        },
+        {
+            "approach": "Reference List",
+            "description": "This involves Checking the citations within relevant articles to discover other studies and sources related to your research"
+        },
+        {
+            "approach": "Hand Searching relevant literature",
+            "description": "This involves physically going through printed journals, books, and documents in libraries or archives to find relevant literature"
+        },
+        {
+            "approach": "Author Searching",
+            "description": "This inovolves seeking out authors who have a substantial publication record in the area of your interest"
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+<table class="w3-table-all">
+    <tr>
+      <th>Searching approaches</th>
+      <th>Search examples</th>
+    </tr>
+    {% for item in searchApproaches.items %}
+    <tr>
+      <td>{{ item.approach }}</td>
+      <td>{{ item.description }}</td>
+    </tr>
+    {% endfor %}
+  </table>

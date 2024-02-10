@@ -159,7 +159,7 @@ There are other frameworks that can be used to help formulate research questions
 These are exemplified below.
 
 
-<!-- Complex Table goes in here -->
+{% include "partials/spiderTable.html" %}
 
 Another model is called ECLIPSE that is mainly used to develop questions related to health policy and management. The framework refers to Expectation, Client group, Location, Impact/ Intervention, Professional, Service/ Study Design and Evaluation. 
 
@@ -185,4 +185,50 @@ Once you have developed a specific and answerable question, the next step is to 
 
 Four common approaches to finding evidence that fits with your inclusion criteria:
 
-<!-- Sources table -->
+{% include "partials/searchApproachesTable.html" %}
+
+### Apply Inclusion and exclusion Criteria
+
+1. **Develop Inclusion criteria**: These are the characteristics or attributes that a study or source must possess to be considered for inclusion in your review. These criteria are typically aligned with your research question and are used to select studies that are directly relevant to your topic. Inclusion criteria can include elements such as study design (e.g., randomised controlled trials, cohort studies), population characteristics (e.g., age, gender, specific health condition), intervention or exposure of interest, outcomes, and publication types (e.g., peer-reviewed articles, conference abstracts).For example, if you are conducting a review on the effectiveness of a specific medication in treating a particular medical condition, your inclusion criteria might specify that you will include only randomised controlled trials (study design), involving adult patients (population), receiving the specific medication as an intervention, and reporting relevant clinical outcomes.
+
+2. **Develop Exclusion Criteria**: Exclusion criteria outline the characteristics or attributes that disqualify a study or source from being included in your review. These criteria help you filter out studies that do not meet your research objectives or may introduce bias. Exclusion criteria can include the opposite of your inclusion criteria. For example, you may exclude studies with certain study designs (e.g., case reports, editorials), populations (e.g., paediatric patients for an adult-focused study), interventions (e.g., studies involving different medications), or outcomes (e.g., studies not reporting relevant data).
+
+### Summary of Inclusion and exclusion Criteria
+
+<table class="w3-table-all">
+<tr>
+  <th>Inclusion criteria</th>
+  <th>Exclusion Criteria</th>
+</tr>
+<tr>
+  <td>
+  <ul>
+    <li>Primary research relating to xyz </li>
+  
+ <li>English and Spanish languages only</li>
+ <li>Published including grey literature</li> 
+ <li>Between 2010 and 2020</li>
+</ul>
+  </td>
+  <td>
+ <ul> 
+  <li>Primary research..</li>
+ <li>Non-English/Spanish</li>
+ <li>Unpublished, papers under review or proposals</li>
+ <li>Published pre 2010 and after 2020</li>
+</ul>
+</td>
+</tr>
+</table>
+
+Conducting a comprehensive search is a critical foundation for a literature review or any research study, as it ensures that you are aware of the existing body of knowledge and can build on previous research. It's a systematic and methodical process that demands patience, critical thinking, and attention to detail. There are some important points that you should keep in mind throughout the process and these are:
+
+- **Keep Records**: As you find relevant sources, make sure to keep records of them. This might involve creating a bibliography, using citation management software, or simply keeping a detailed list of the sources you've found.
+
+- **Review and Refine Search**: Periodically review your search results and refine your search strategy as needed. You may discover additional keywords or subject headings as you delve deeper into the literature.
+
+- **Search Iteratively**: Conduct multiple searches with different combinations of keywords and databases. This iterative process helps ensure that you locate a comprehensive set of relevant literature.
+
+## What is Primsa flow Chart?
+
+<div class="w3-panel w3-teal"><p>"PRISMA helps researchers ensure that they report all their search and paper selection details transparently in various types of reviews. The Prisma flow chart provides a visual summary of the steps reviewers took to find and decide whether to include published data in the review."</p></div>
