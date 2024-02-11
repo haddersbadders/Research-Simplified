@@ -232,3 +232,8 @@ Conducting a comprehensive search is a critical foundation for a literature revi
 ## What is Primsa flow Chart?
 
 <div class="w3-panel w3-teal"><p>"PRISMA helps researchers ensure that they report all their search and paper selection details transparently in various types of reviews. The Prisma flow chart provides a visual summary of the steps reviewers took to find and decide whether to include published data in the review."</p></div>
+
+<figure>
+<img src="/images/PrismaChart.png" alt="diagram of the Prisma Chart" />
+<figcaption>Prisma Chart</figcaption>
+</figure> 
