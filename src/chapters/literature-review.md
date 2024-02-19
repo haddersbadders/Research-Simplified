@@ -246,3 +246,68 @@ Conducting a comprehensive search is a critical foundation for a literature revi
 <img src="/images/PrismaChart.png" alt="diagram of the Prisma Chart" />
 <figcaption>Prisma Chart</figcaption>
 </figure> 
+
+## Review and Analyze Literature
+
+Up until now you have learned to develop a specific research question and then to identify relevant research studies. Now you have got a pile of research articles on the table in front of you. But do you actually know how to read a research article? Is it the same as a magazine article? What are the various components of a research article? How to make sense of it. All of these questions are very important. If you don’t know the components of a research article, you will not be able to appraise that article effectively.
+
+### Usual component of a research article/ Format of a research article
+
+<!-- Can this be presented in a better way? -->
+
+Research articles in the healthcare field typically consist of several key components. These components are structured to provide a clear and comprehensive understanding of the research, its methods, results, and implications. The specific format can vary slightly between different journals, but the core components often include:
+
+- **Title**: The title should be concise and clearly reflect the main topic of the research.
+
+- **Abstract**: A brief summary of the research, including the research question, methods, key findings, and conclusions. It provides a quick overview of the article.
+
+- **Introduction**: This section sets the stage for the research by providing background information, context, and a clear statement of the research question or hypothesis.
+
+- **Literature Review**: A review of relevant literature that provides the theoretical and empirical basis for the research. It identifies gaps in existing knowledge.
+
+- **Methods**: A detailed description of the research methods, including study design, data collection procedures, study participants, and statistical or analytical methods used.
+
+- **Results**: Presentation of the research findings, often through text, tables, figures, or graphs. This section should be clear and organised, allowing readers to understand the results easily.
+
+- **Discussion**: An interpretation of the results, including their significance and relevance. This section also addresses limitations and suggests areas for further research.
+
+- **Conclusion**: A concise summary of the key findings and their implications for the healthcare field.
+
+- **Recommendations**: If applicable, suggestions for practical applications or policy recommendations based on the research.A section where authors can acknowledge individuals or organizations that contributed to the research.
+
+- **References**: A comprehensive list of all sources cited in the article, following a specific citation style (e.g., APA, MLA, Chicago).
+
+- **Appendices**: Supplementary materials that provide additional details on methods, data, or analysis. These are often included if they would be too extensive to include in the main body of the article.
+
+Additionally, some articles may include other components like a "Methods" section that is divided into subsections (e.g., participants, data collection, data analysis) or a "Conflict of Interest" statement to disclose any potential conflicts.
+
+The specific structure and requirements may vary from one journal to another. These components collectively serve to present the research in a clear, transparent, and structured manner, allowing readers to understand, assess, and potentially build upon the research findings.
+
+It is also important to remember that research articles and their parts or components vary depending on the study reported in the article. For instance, an article reporting the findings of a qualitative study will be written in a different way than one reporting a quantitative study. An article reporting in a systematic review will be different from presenting information about screening tests. 
+
+### Analytical/Critical reading triggers critical thinking
+
+Analytical reading is an active cognitive process that involves developing the ability to think critically. It encompasses mental activities such as focusing, categorising, choosing, and assessing. Engaging in analytical reading not only leads to a deeper comprehension of the subject matter but also supports researchers in honing and retaining their analytical reading abilities.
+
+
+<div class="w3-card eeeca">
+ <header class="w3-container w3-teal">
+  <h4>The EEECA Model of Analytical reading</h4>
+</header>
+
+<div class="w3-container">
+<ul>
+  
+  <li class="w3-border-bottom w3-margin-bottom"><span>Examine</span> the topic from more than one perspective </li>
+  
+  <li class="w3-border-bottom w3-margin-bottom"><span>Evaluate:</span> Critique the topic, thereby making a judgement about it</li>
+  
+  <li class="w3-border-bottom w3-margin-bottom"><span>Establish</span> relationships and show how they are related</li>
+  
+  <li class="w3-border-bottom w3-margin-bottom"><span>Compare</span> and contrast the ideas - similarities and differences</li>
+  
+  <li class="w3-border-bottom w3-margin-bottom"><span>Argue</span> for and against something to try to persuade the reader to agree</li>
+  </ul>
+</div>
+
+</div>

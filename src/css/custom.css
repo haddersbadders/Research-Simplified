@@ -56,3 +56,9 @@ main img {
   display: none;
   overflow: hidden;
 }
+
+.eeeca span {
+  font-weight: bold;
+  /* background: teal; */
+}
+
