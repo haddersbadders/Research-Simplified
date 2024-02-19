@@ -10,6 +10,15 @@ teaser:
 
 ---
 
+### On this page
+
+- [Why do we need to write a literature review?](#why-do-we-need-to-write-a-literature-review)
+- [Type of Literature Review](#type-of-literature-review)
+- [Process of Literature Review](#process-of-literature-review)
+- [Stages in Literature Searching](#stages-in-literature-searching)
+- [Developing Review Question](#developing-review-question)
+
+
 A literature review is an organised and comprehensive summary of existing research on a particular topic. The purpose of a literature review is to provide an overview of the existing research on a topic, identify any gaps in the current research, and draw conclusions●	 and implications for future research. It is a critical process that helps synthesise existing research and identify any potential flaws or limitations in the research. A literature review is essential in any research project, as it helps to provide context, identify potential research gaps, and inform the overall research project.
 
 A literature review requires a critical evaluation of the material; this is why it is called a literature review rather than a literature report. It is a process of reviewing the literature, as well as a form of writing.

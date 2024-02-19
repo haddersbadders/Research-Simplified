@@ -1,6 +1,8 @@
 const markdownIt = require('markdown-it');
 const markdownItAnchor = require('markdown-it-anchor');
 const markdownItAttrs = require('markdown-it-attrs');
+
+
 let markdownItOptions = {
   html: true // you can include HTML tags
 }
@@ -15,7 +17,6 @@ module.exports = config => {
     config.addPassthroughCopy('./src/js/');
     config.addPassthroughCopy('./src/css/');
     config.setLibrary("md", markdownIt(markdownItOptions).use(markdownItAnchor, markdownItAnchorOptions));
- 
 
     // Returns work items, sorted by display order
 config.addCollection('chapters', collection => {
