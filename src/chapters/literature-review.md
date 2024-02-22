@@ -298,16 +298,117 @@ Analytical reading is an active cognitive process that involves developing the a
 <div class="w3-container">
 <ul>
   
-  <li class="w3-border-bottom w3-margin-bottom"><span>Examine</span> the topic from more than one perspective </li>
+  <li class="w3-border-bottom w3-margin-bottom w3-padding-16"><span>Examine</span> the topic from more than one perspective </li>
   
-  <li class="w3-border-bottom w3-margin-bottom"><span>Evaluate:</span> Critique the topic, thereby making a judgement about it</li>
+  <li class="w3-border-bottom w3-margin-bottom w3-padding-16"><span>Evaluate:</span> Critique the topic, thereby making a judgement about it</li>
   
-  <li class="w3-border-bottom w3-margin-bottom"><span>Establish</span> relationships and show how they are related</li>
+  <li class="w3-border-bottom w3-margin-bottom w3-padding-16"><span>Establish</span> relationships and show how they are related</li>
   
-  <li class="w3-border-bottom w3-margin-bottom"><span>Compare</span> and contrast the ideas - similarities and differences</li>
+  <li class="w3-border-bottom w3-margin-bottom w3-padding-16"><span>Compare</span> and contrast the ideas - similarities and differences</li>
   
-  <li class="w3-border-bottom w3-margin-bottom"><span>Argue</span> for and against something to try to persuade the reader to agree</li>
+  <li class="w3-border-bottom w3-margin-bottom w3-padding-16"><span>Argue</span> for and against something to try to persuade the reader to agree</li>
   </ul>
 </div>
 
 </div>
+
+### Critically Appraising Literature
+
+#### Part 2. Appraising Literature <!-- Do we need this heading? or at least "part 2" -->
+
+Critical appraisal means thoroughly and carefully evaluating research to figure out if it's trustworthy and how useful it is in a specific situation. It's like a detailed review of a research study to see what's good and not so good in the research paper.
+
+
+So, now you have developed a research question, found the evidence and read the research article. Is that enough? Now you need to make sense of the research article. Not in terms of the components or parts of a research article, but to understand the findings of the study reported in the article. You need to be able to make a judgement about the quality of the study presented in the article. You need to decide if the findings are valid and reliable.
+You will be able to make these judgments only if you are able to critically appraise the article. 
+
+#### Why there is a need for critical appraisal?
+
+- Not all published research is scientifically sound. The majority of published articles are not of appropriate quality and therefore cannot be used to inform practice
+
+- To weigh up evidence to see how useful it is in decision making
+
+- To determine and balance benefits and strengths of research against its flaws and weaknesses
+
+- All health care professionals should have an ability and skill to critically appraise evidence-
+
+- It is important to remember that studies that do not state methods fully overstate the benefits of treatments. In addition, studies funded by a pharmaceutical company are more likely to give results that are favourable to the company than independent studies.
+
+<div class="w3-panel w3-teal">
+
+<h3>Principles of Critical Appraisal</h3>
+
+<p>There are some principles of appraising and these can be summarised as:</p>
+<ul>
+<li>Read and critique the entire study</li>
+<li>Examine the organisation and presentation of the research report</li>
+<li>Examine the significance of the problem</li>
+<li>Identify strengths and weaknesses of the study objectively and realistically</li>
+<li>Provide specific examples of the strengths and weaknesses</li>
+<li>Provide a rationale for your critique</li>
+<li>Suggest modifications for future studies</li>
+<li>Discuss feasibility of replication of the study</li>
+<li>Discuss usefulness of findings for practice</li>
+
+</ul>
+
+</div>
+
+### Critical appraisal tools
+There are many critical appraisal tools available that can be used to evaluate various types of research. 
+
+Using tools for critical appraisal, one can determine whether the evidence is derived from impartial, methodologically sound, and rigorous research.
+
+Table 3.3 provides a list of some common critical appraisal tools used in health and social care research.
+
+{% include "partials/criticalAppraisalTools.html" %}
+
+### Part 3 Synthesising literature
+
+The literature synthesis stage of a literature review is where you make sense of all the articles and studies you've gathered. It's like putting together pieces of a puzzle to create a clear picture of what's known about your topic. As nurses and healthcare professionals, this step is crucial for understanding the latest research and its practical applications in your field. Here's how to do it:
+
+**Organise Your Sources**: Start by organising the articles and studies you've found. You can use software or tools like reference managers to help with this. Create categories or themes that relate to your topic, making it easier to group similar findings together.
+
+**Read Carefully**: Read each article carefully and take notes. Highlight key findings, important statistics, and the author's conclusions. Note any differences or contradictions in the studies.
+
+**Identify Patterns**: Look for patterns or trends in the literature. Do multiple studies support similar conclusions, or are there mixed findings? Identify any gaps in the research where more investigation is needed.
+
+**Compare and Contrast**: Compare and contrast the studies and analyse the methodology used in each research piece. Are there differences in sample size, demographics, or methods that could explain variations in the results?
+
+**Extract Key Insights**: Extract key insights from the literature. These are the main takeaways that are relevant to your research question or topic. Think about how these insights might be applied in your healthcare practice.
+
+**Synthesise Information**: Write a summary of the literature, combining the key findings and insights from various sources. This should provide a clear, comprehensive view of the current state of knowledge in your area of interest.
+
+**Discuss Implications**: Consider the practical implications of the research for your nursing or healthcare practice. How can the findings be applied to patient care, policies, or procedures? What questions or issues still need further exploration?
+
+**Identify Future Directions**: Highlight areas where more research is needed or suggest potential future studies that could address existing gaps in the literature.
+
+**Write Your Review**: Finally, write your literature review, structuring it with an introduction, a discussion of the reviewed literature, and a conclusion that summarizes the key findings and their relevance to your field.
+
+Remember, the literature synthesis stage is all about connecting the dots and creating a clear, evidence-based understanding of your topic. This knowledge will not only benefit your own practice but can also contribute to the advancement of healthcare as a whole,
+
+### Part 4. Reporting Literature 
+
+The literature reporting stage in a literature review is where you share your findings with your fellow nurses and healthcare professionals. Here's how to effectively report your literature review:
+
+**Introduction**: Start with an engaging introduction that explains the purpose of your review and why it's important for healthcare professionals.
+
+**Methods**: Briefly describe the methods you used for your literature review, such as search criteria, databases, and inclusion/exclusion criteria.
+
+**Review Structure**: Clearly outline the structure of your review, mentioning how you've organised the literature (e.g., by themes, chronology, or other categories).
+
+**Key Findings**: Present the key findings and insights from the literature. Summarise what the existing research says about your topic.
+
+**Implications for Practice**: Discuss the practical implications of the literature for healthcare professionals. How can this information be applied to improve patient care, policies, or healthcare practices?
+
+**Challenges and Gaps**: Mention any challenges or limitations you encountered during your review. Highlight gaps in the research where further investigation is needed.
+
+**Recommendations**: Provide recommendations for healthcare professionals based on the literature. What actions or changes in practice should be considered?
+
+**Conclusion**: Summarise the main takeaways from your literature review and emphasise,  the relevance of this knowledge for nurses and healthcare professionals.
+
+**References**: List all the sources you've reviewed in a proper format, such as APA or MLA, so that your peers can access the original studies.
+
+**Appendices (if necessary)**: Include any supplementary materials, like tables or charts, that can help illustrate your findings.
+
+Remember, the goal of the literature reporting stage is to communicate the valuable insights you've gathered from the research to your healthcare colleagues in a clear and concise manner. This information can be a valuable resource for evidence-based practice and decision-making in healthcare.

@@ -1,0 +1,22 @@
+<h4>Table of Common Critical Appraisal Tools</h4>
+<table class="w3-table-all">
+    <tr>
+      <th>Tool</th>
+      <th>Description</th>
+      <th>Sub-type</th>
+    </tr>
+
+    {% for item in criticalAppraisalTools.items %}
+  <tr>
+    <td>{{ item.tool }}</td>
+    <td>{{ item.description }}</td>
+    <td width="25%">
+        {% if item.subtype.length > 1 %}
+          <ul class="no-pad">{% for subtype in item.subtype %}<li>{{ subtype }}</li>{% endfor %}</ul>
+        {% else %}
+          {{ item.subtype }}
+        {% endif %}
+      </td>
+  </tr>
+{% endfor %}
+    </table>

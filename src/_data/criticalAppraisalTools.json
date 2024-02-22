@@ -1,0 +1,52 @@
+{
+    "items": [
+        {
+            "tool": "CASP (Critical Appraisal Skills Programme)",
+            "description": "The CASP (Critical Appraisal Skills Programme) checklist is a tool used in evidence-based medicine and research to assess the quality of studies, particularly in the fields of healthcare and social sciences.",
+            "subtype": [
+                "CASP- Randomised Controlled Trial (RCT)",
+                "CASP - Qualitative Studies",
+                "CASP - Cohort studies"
+            ]
+        },
+
+        {
+            "tool": "CEBM (Centre for Evidence Based Medicine)",
+            "description": "The Centre for Evidence-Based Medicine (CEBM) is an organization, typically associated with universities or healthcare institutions, that promotes and conducts research in the field of evidence-based medicine.",
+            "subtype": [
+                "Systematic review",
+                "Randomised Controlled Trial (RCT)",
+                "Qualitative studies"
+            ]
+        },
+
+        {
+            "tool": "JBI (Joanna Briggs Institute)",
+            "description": "The Joanna Briggs Institute (JBI) checklist is a tool developed and used by the Joanna Briggs Institute, an international research organization known for its work in evidence-based healthcare. The JBI checklist is designed to assist researchers and healthcare professionals in critically appraising and synthesizing research studies and evidence, particularly in the fields of healthcare and nursing.",
+            "subtype": [
+                "Economic Evaluations",
+                "Prevalence Studies",
+                "Qualitative studies"
+            ]
+        },
+
+        {
+            "tool": "PEDro",
+            "description": "The PEDro (Physiotherapy Evidence Database) critical appraisal checklist is a widely used tool designed to assess the quality and methodological rigor of clinical research studies in the field of physiotherapy and related healthcare disciplines.",
+            "subtype": [
+                "PEDro Scale"
+            ]
+        },
+
+        {
+            "tool": "MMAT (Mixed Methods Appraisal Tool)",
+            "description": "Mixed methods research involves the integration of both qualitative and quantitative research approaches within a single study to provide a comprehensive understanding of a research question or issue.",
+            "subtype": [
+                "MMAT Tool"
+            ]
+        }
+
+
+    ]
+
+}
