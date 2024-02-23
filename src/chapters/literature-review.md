@@ -9,17 +9,14 @@ teaser:
   alt: icon of book
 
 ---
+<h3 onclick="accordion('toc')" class="w3-button w3-block w3-blue-grey w3-left-align w3-border-bottom w3-border-white">Table of Contents</h3>
 
-### On this page
+<div id="toc" class="w3-container w3-hide">
+{% include "partials/lit-review-toc.html" %}
 
-- [Why do we need to write a literature review?](#why-do-we-need-to-write-a-literature-review)
-- [Type of Literature Review](#type-of-literature-review)
-- [Process of Literature Review](#process-of-literature-review)
-- [Stages in Literature Searching](#stages-in-literature-searching)
-- [Developing Review Question](#developing-review-question)
+</div>
 
-
-A literature review is an organised and comprehensive summary of existing research on a particular topic. The purpose of a literature review is to provide an overview of the existing research on a topic, identify any gaps in the current research, and draw conclusions●	 and implications for future research. It is a critical process that helps synthesise existing research and identify any potential flaws or limitations in the research. A literature review is essential in any research project, as it helps to provide context, identify potential research gaps, and inform the overall research project.
+A literature review is an organised and comprehensive summary of existing research on a particular topic. The purpose of a literature review is to provide an overview of the existing research on a topic, identify any gaps in the current research, and draw conclusions and implications for future research. It is a critical process that helps synthesise existing research and identify any potential flaws or limitations in the research. A literature review is essential in any research project, as it helps to provide context, identify potential research gaps, and inform the overall research project.
 
 A literature review requires a critical evaluation of the material; this is why it is called a literature review rather than a literature report. It is a process of reviewing the literature, as well as a form of writing.
 
@@ -113,7 +110,7 @@ Click on the terms below to explore, understand and distinguish between various 
 
 {% include "partials/critical-review-accordion.html" %}
 
-### Process of Literature Review
+## Process of Literature Review
 
 This diagram provides a visual representation of the sequential steps involved in conducting a literature review. It serves as a useful reference for anyone engaged in the literature review process.
 
@@ -167,7 +164,6 @@ There are other frameworks that can be used to help formulate research questions
 
 These are exemplified below.
 
-
 {% include "partials/spiderTable.html" %}
 
 Another model is called ECLIPSE that is mainly used to develop questions related to health policy and management. The framework refers to Expectation, Client group, Location, Impact/ Intervention, Professional, Service/ Study Design and Evaluation. 
@@ -176,7 +172,7 @@ Try and use these frameworks to develop your review question. Find a template he
 
 As already suggested, before starting a search of the literature, you need to determine what you are trying to find out about and what level of information is needed. 
 
-### Search for Literature
+## Search for Literature
 
 Once you have developed a specific and answerable question, the next step is to find appropriate evidence to answer that question. Finding appropriate evidence can become a very complicated and a cumbersome task if you do not follow a systematic process. A process with smaller steps to enable you to identify the appropriate number of articles/ research studies that you can evaluate.  To do this, you need to follow a few steps and these include:
 
@@ -196,7 +192,7 @@ Four common approaches to finding evidence that fits with your inclusion criteri
 
 {% include "partials/searchApproachesTable.html" %}
 
-### Apply Inclusion and exclusion Criteria
+## Apply Inclusion and exclusion Criteria
 
 1. **Develop Inclusion criteria**: These are the characteristics or attributes that a study or source must possess to be considered for inclusion in your review. These criteria are typically aligned with your research question and are used to select studies that are directly relevant to your topic. Inclusion criteria can include elements such as study design (e.g., randomised controlled trials, cohort studies), population characteristics (e.g., age, gender, specific health condition), intervention or exposure of interest, outcomes, and publication types (e.g., peer-reviewed articles, conference abstracts).For example, if you are conducting a review on the effectiveness of a specific medication in treating a particular medical condition, your inclusion criteria might specify that you will include only randomised controlled trials (study design), involving adult patients (population), receiving the specific medication as an intervention, and reporting relevant clinical outcomes.
 
@@ -238,7 +234,7 @@ Conducting a comprehensive search is a critical foundation for a literature revi
 
 - **Search Iteratively**: Conduct multiple searches with different combinations of keywords and databases. This iterative process helps ensure that you locate a comprehensive set of relevant literature.
 
-## What is Primsa flow Chart?
+### What is Primsa flow Chart?
 
 <div class="w3-panel w3-teal"><p>"PRISMA helps researchers ensure that they report all their search and paper selection details transparently in various types of reviews. The Prisma flow chart provides a visual summary of the steps reviewers took to find and decide whether to include published data in the review."</p></div>
 
@@ -312,9 +308,9 @@ Analytical reading is an active cognitive process that involves developing the a
 
 </div>
 
-### Critically Appraising Literature
+## Critically Appraising Literature
 
-#### Part 2. Appraising Literature <!-- Do we need this heading? or at least "part 2" -->
+### Part 2. Appraising Literature <!-- Do we need this heading? or at least "part 2" -->
 
 Critical appraisal means thoroughly and carefully evaluating research to figure out if it's trustworthy and how useful it is in a specific situation. It's like a detailed review of a research study to see what's good and not so good in the research paper.
 
@@ -322,7 +318,7 @@ Critical appraisal means thoroughly and carefully evaluating research to figure 
 So, now you have developed a research question, found the evidence and read the research article. Is that enough? Now you need to make sense of the research article. Not in terms of the components or parts of a research article, but to understand the findings of the study reported in the article. You need to be able to make a judgement about the quality of the study presented in the article. You need to decide if the findings are valid and reliable.
 You will be able to make these judgments only if you are able to critically appraise the article. 
 
-#### Why there is a need for critical appraisal?
+### Why there is a need for critical appraisal?
 
 - Not all published research is scientifically sound. The majority of published articles are not of appropriate quality and therefore cannot be used to inform practice
 
@@ -363,7 +359,7 @@ Table 3.3 provides a list of some common critical appraisal tools used in health
 
 {% include "partials/criticalAppraisalTools.html" %}
 
-### Part 3 Synthesising literature
+## Part 3 Synthesising literature
 
 The literature synthesis stage of a literature review is where you make sense of all the articles and studies you've gathered. It's like putting together pieces of a puzzle to create a clear picture of what's known about your topic. As nurses and healthcare professionals, this step is crucial for understanding the latest research and its practical applications in your field. Here's how to do it:
 
@@ -387,7 +383,7 @@ The literature synthesis stage of a literature review is where you make sense of
 
 Remember, the literature synthesis stage is all about connecting the dots and creating a clear, evidence-based understanding of your topic. This knowledge will not only benefit your own practice but can also contribute to the advancement of healthcare as a whole,
 
-### Part 4. Reporting Literature 
+## Part 4. Reporting Literature 
 
 The literature reporting stage in a literature review is where you share your findings with your fellow nurses and healthcare professionals. Here's how to effectively report your literature review:
 
