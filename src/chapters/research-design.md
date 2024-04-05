@@ -38,7 +38,7 @@ The issues around the concept of research design are crucial, as they determine 
 
 Different research designs are used by researchers that help them answer their research problems.  However, broadly at a higher level, there are two major approaches/designs to research: qualitative and quantitative.
 
-## Qualitative Research
+### Qualitative Research
 
 Qualitative research involves collecting and analysing data to gain an understanding of individuals' social reality, including understanding their attitudes, beliefs and motivations. 
 
@@ -50,7 +50,7 @@ Qualitative research is a valuable approach to understanding the complexities of
 
 In summary, qualitative research is a powerful tool for exploring complex, context-dependent phenomena and understanding the lived experiences of individuals. However, it has limitations, including subjectivity, limited generalizability, and the resource-intensive nature of data collection and analysis. Researchers should carefully consider the advantages and disadvantages of qualitative research when choosing their research approach.
 
-### Types of Qualitative Research
+#### Types of Qualitative Research
 
 Qualitative research encompasses a wide range of methodologies and approaches designed to explore and understand human experiences, behaviours, and social phenomena. Here are some common types of qualitative research used in nursing and health:
 
@@ -70,6 +70,8 @@ Researchers can select the method that best aligns with their research questions
 
 
 
+{% include "partials/grounded-theory-cards.html" %}
 
 
-## Quantitative Research
+
+### Quantitative Research
