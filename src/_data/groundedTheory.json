@@ -1,0 +1,77 @@
+{
+   "qual_research_types": [
+    {
+        "type": "Grounded Theory",
+        "description": "GT is a structured, yet flexible approach, concerned with the generation of theory, which is 'grounded' in data that has been systematically collected and analysed. GT focuses on social experiences, Contributes to the development of middle-range theories. GT theories are grounded in data. GT is suited to research about which very little is known. GT is an appropriate approach to explore many health-related research questions.",
+        "characteristics": [
+            {
+                "name": "Theoretical sampling:",
+                "description": "is
+                the process of data collection, and deciding what data to collect based on the theory and categories that emerge from your data."
+            },
+            {
+                "name": "Theoretical sensitivity:",
+                "description": "facilitates  insight into what is meaningful and of significance in the data for theory development. Professional background, knowledge and experience can help researchers are helpful in developing sensitivity to the research topic."
+            },
+            {
+                "name": "Theoretical saturation:",
+                "description": "is the last component to be taken into account when integrating theory.  It is described as the stage in which no new categories are created and all additional data is gathered within already established categories."
+            },
+            {
+                "name": "Coding:",
+                "description": " is a process of systematically labelling, organising and categorising qualitative excerpts to identify themes and patterns."
+            },
+            {
+                "name": "Constant comparison:",
+                "description": "is an analytic technique in which information obtained from data collection is constantly compared with emerging categories and concepts"
+            },
+            {
+                "name": "Memo writing:",
+                "description": "Memos are written records of a researcher's ideas, reflections, and thoughts on the research process.  Memos offer a record of the researchers' analytical decisions and logistical information regarding their research activities."
+            }
+        ]
+    },
+    {
+        "type": "Phenomenology",
+        "description": "Phenomenology is concerned with the lived experiences of humans and of the ways things present themselves to us in and through such experiences (Sokolowski 2000, 2).",
+        "characteristics": [
+            {
+                "name": "Positionality:",
+                "description": "refers to the researcher's acknowledgement and consideration of their own subjectivity, background, beliefs, and perspectives in the research process. Positionality influences the way a researcher approaches and interprets the data, and it is important to recognize and address these potential biases and preconceptions."
+            },
+            {
+                "name": "Reflexivity:",
+                "description": "refers to the researcher's continuous process of self-awareness and self-reflection. To make sure that one's own prejudices, beliefs, and presumptions do not unnecessarily affect how participants' experiences are interpreted, it requires ongoing self-examination."
+            },
+            {
+                "name": "Bracketing:",
+                "description": "is used by researchers to temporarily suspend or set aside their preconceptions and biases, allowing them to focus solely on the phenomena as experienced by participants."
+            },
+            {
+                "name": "Hermeneutic Circle:",
+                "description": "Phenomenological research involves an iterative process where the researcher continually moves between the parts and the whole, refining the analysis to gain a deeper understanding of the phenomenon."
+            }
+
+        ]
+    },
+    {
+        "type": "Ethnography",
+        "description": "Ethnography involves the in-depth study of a specific cultural group or community. Researchers immerse themselves in the field, often through participant observation and interviews, to understand the culture, behaviours, beliefs, and social dynamics of the group. Ethnography seeks to provide a holistic and context-rich perspective on the lives and experiences of the people within the studied community.",
+        "characteristics":[
+            {
+                "name": "Participant Observation:",
+                "description": "Ethnographers actively participate in the social activities and events of the community they are studying. They observe and interact with community members, building relationships and trust over time."
+            },
+            {
+                "name": "Fieldwork:",
+                "description": "Ethnographic research typically involves fieldwork, which can last from several weeks to many years, depending on the research objectives. During fieldwork, researchers live among the people they are studying and immerse themselves in the culture."
+            },
+            {
+                "name": "Key Informants:",
+                "description": "are integral to the success of ethnographic research, as they provide valuable insights and information about the culture, community, or social setting being studied. These individuals are typically well-informed, respected, and knowledgeable members of the community, and they serve as critical sources of information and guidance for ethnographers."
+            }
+        ]
+    }
+   
+   ]
+}
