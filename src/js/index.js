@@ -46,3 +46,12 @@ function openCr(evt, crName) {
   evt.currentTarget.className += " w3-red";
 }
 
+
+function qualRes(qualResName) {
+  var i;
+  var x = document.getElementsByClassName("qualres");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  document.getElementById(qualResName).style.display = "block";
+}

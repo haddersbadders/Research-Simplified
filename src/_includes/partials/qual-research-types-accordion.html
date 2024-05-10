@@ -1,0 +1,16 @@
+<div class="w3-panel w3-yellow">
+  <h3>To Do</h3>
+  <p>Add in Types of Qualitative Research diagrams/tabs/tables. Format to be determined. 
+Accordion?  </p>
+</div>
+
+{% for researchType in data.qual_research_types %}
+  <h2>{{ researchType.type }}</h2>  <p>{{ researchType.description }}</p> {% if researchType.characteristics.length > 0 %}
+    <h3>Characteristics</h3>
+    <ul>
+      {% for characteristic in researchType.characteristics %}
+        <li><b>{{ characteristic.name }}</b> - {{ characteristic.description }}</li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+{% endfor %}

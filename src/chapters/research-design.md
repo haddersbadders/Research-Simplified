@@ -70,8 +70,8 @@ Researchers can select the method that best aligns with their research questions
 
 
 
-{% include "partials/grounded-theory-tabs.html" %}
-
+{% include "partials/qual-research-types-accordion.html" %}
 
 
 ### Quantitative Research
+
