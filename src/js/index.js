@@ -47,11 +47,20 @@ function openCr(evt, crName) {
 }
 
 
-function qualRes(qualResName) {
+function openQualRes(qualResName) {
   var i;
   var x = document.getElementsByClassName("qualres");
   for (i = 0; i < x.length; i++) {
     x[i].style.display = "none";
   }
   document.getElementById(qualResName).style.display = "block";
+}
+
+function openQuantRes(quantResName) {
+  var i;
+  var x = document.getElementsByClassName("quantres");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  document.getElementById(quantResName).style.display = "block";
 }
