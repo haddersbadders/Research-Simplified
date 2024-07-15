@@ -1,0 +1,67 @@
+    <style>
+        .hexagon {
+            width: 100px;
+            height: 115px;
+            background-color: #009688;
+            position: relative;
+            clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto;
+            transition: transform 0.3s;
+        }
+        .component:hover .hexagon {
+            transform: scale(1.05);
+        }
+        .active .hexagon {
+            background-color: #4CAF50;
+        }
+    </style>
+
+
+    <div class="w3-container w3-padding-64">
+        <h1 class="w3-center">Grounded Theory Components</h1>
+        
+        <div class="w3-row-padding w3-center w3-margin-top">
+            <div class="w3-col l4 m6 w3-margin-bottom component active" data-component="Theoretical Sampling">
+                <div class="hexagon"></div>
+                <h4>Theoretical Sampling</h4>
+            </div>
+            <div class="w3-col l4 m6 w3-margin-bottom component" data-component="Theoretical Sensitivity">
+                <div class="hexagon"></div>
+                <h4>Theoretical Sensitivity</h4>
+            </div>
+            <div class="w3-col l4 m6 w3-margin-bottom component" data-component="Theoretical Saturation">
+                <div class="hexagon"></div>
+                <h4>Theoretical Saturation</h4>
+            </div>
+            <div class="w3-col l4 m6 w3-margin-bottom component" data-component="Coding">
+                <div class="hexagon"></div>
+                <h4>Coding</h4>
+            </div>
+            <div class="w3-col l4 m6 w3-margin-bottom component" data-component="Constant Comparison">
+                <div class="hexagon"></div>
+                <h4>Constant Comparison</h4>
+            </div>
+            <div class="w3-col l4 m6 w3-margin-bottom component" data-component="Memo Writing">
+                <div class="hexagon"></div>
+                <h4>Memo Writing</h4>
+            </div>
+        </div>
+        
+        <div id="description" class="w3-panel active w3-padding-16 w3-round-large"></div>
+        
+        <div class="w3-container w3-margin-top">
+            <h3>Key Characteristics of Grounded Theory:</h3>
+            <ul class="w3-ul">
+                <li>Focuses on social experiences</li>
+                <li>Contributes to the development of middle-range theories</li>
+                <li>Theories are grounded in data</li>
+                <li>Suited to research about which very little is known</li>
+                <li>Appropriate approach to explore many health-related research questions</li>
+            </ul>
+        </div>
+    </div>
+    
+    <!-- js scripts in index.js -->

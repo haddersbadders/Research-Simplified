@@ -64,3 +64,38 @@ function openQuantRes(quantResName) {
   }
   document.getElementById(quantResName).style.display = "block";
 }
+
+
+// interactive theory components
+
+const components = {
+  'Theoretical Sampling': 'The process of data collection, deciding what data to collect based on the theory and categories that emerge from your data.',
+  'Theoretical Sensitivity': 'Facilitates insight into what is meaningful and of significance in the data for theory development. Professional background, knowledge and experience can help researchers develop sensitivity to the research topic.',
+  'Theoretical Saturation': 'The stage in which no new categories are created and all additional data is gathered within already established categories.',
+  'Coding': 'A process of systematically labelling, organising and categorising qualitative excerpts to identify themes and patterns.',
+  'Constant Comparison': 'An analytic technique in which information obtained from data collection is constantly compared with emerging categories and concepts.',
+  'Memo Writing': 'Written records of a researcher\'s ideas, reflections, and thoughts on the research process. Memos offer a record of the researchers\' analytical decisions and logistical information regarding their research activities.'
+};
+
+      const componentElements = document.querySelectorAll('.component');
+      const descriptionElement = document.getElementById('description');
+
+      function updateDescription(componentName) {
+          descriptionElement.innerHTML = `
+              <h3>${componentName}</h3>
+              <p>${components[componentName]}</p>
+          `;
+      }
+
+      componentElements.forEach(component => {
+          component.addEventListener('click', () => {
+              const componentName = component.getAttribute('data-component');
+              updateDescription(componentName);
+              
+              componentElements.forEach(c => c.classList.remove('active'));
+              component.classList.add('active');
+          });
+      });
+
+      // Set initial selection to Theoretical Sampling
+      updateDescription("Theoretical Sampling");

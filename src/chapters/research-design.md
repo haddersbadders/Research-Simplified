@@ -71,7 +71,7 @@ Researchers can select the method that best aligns with their research questions
 Below we describe three main types in further detail:
 
 
-{% include "partials/qual-research-types-accordion.html" %}
+{% include "partials/grounded-theory-w3.html" %}
 
 
 ## Quantitative Research
