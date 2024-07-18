@@ -71,7 +71,7 @@ Researchers can select the method that best aligns with their research questions
 Below we describe three main types in further detail:
 
 
-{% include "partials/grounded-theory-w3.html" %}
+{% include "partials/research-methods-infographic.html" %}
 
 
 ## Quantitative Research
@@ -130,7 +130,7 @@ Quantitative research methods in nursing and healthcare provide valuable evidenc
 
 ### Comparison of of qualitative and quantitative Research table:
 
-See the tables below, and can these be merged into one good form?
+{% include "partials/research-approaches.html" %}
 
 
 ## Research in a Digital Age
