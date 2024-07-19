@@ -58,20 +58,25 @@ An worldwide standard of ethical and scientific excellence for the planning, car
 
 The 13 GCP principles are listed below:
 
-<ol class="w3-ul w3-card-4">
-<li class="w3-bar"><img src="/images/scales.png" class="w3-bar-item w3-circle" style="width:85px" alt="scales">
-<strong>Ethics:</strong> Clinical trials should be conducted in accordance with the ethical principles that have their origin in the Declaration of Helsinki, and that are consistent with GCP and the applicable regulatory requirement(s).</li>
-<li class="w3-bar"><img src="/images/risk.png" class="w3-bar-item w3-circle" style="width:85px" alt="graph"><strong>Trial risk vs. trial benefit: </strong>Before a trial is initiated, foreseeable risks and inconveniences should be weighed against the anticipated benefit for the individual trial subject and society. A trial should be initiated and continued only if the anticipated benefits justify the risks.</li>
-<li class="w3-bar"><strong>Trial participants: </strong>The rights, safety, and well-being of the trial subjects are the most important considerations and should prevail over the interests of science and society.</li>
-<li class="w3-bar"><strong>Information on medicinal products:</strong> The available nonclinical and clinical information on an investigational product should be adequate to support the proposed clinical trial.</li>
-<li class="w3-bar"><strong>Good quality trials:</strong> Clinical trials should be scientifically sound, and described in a clear, detailed protocol.</li>
-<li class="w3-bar"><strong>Compliance with the study protocol:</strong> A trial should be conducted in compliance with the protocol that has received prior institutional review board (IRB)/independent ethics committee (IEC) approval/favourable opinion.</li>
-<li class="w3-bar"><strong>Medicinal decisions:</strong> The medical care given to, and medical decisions made on behalf of, subjects should always be the responsibility of a qualified physician or, when appropriate, of a qualified dentist.</li>
-<li class="w3-bar"><strong>Trial staff:</strong> Each individual involved in conducting a trial should be qualified by education, training, and experience to perform his or her respective task(s).</li>
-<li class="w3-bar"><strong>Informed consent:</strong> Freely given informed consent should be obtained from every subject prior to clinical trial participation.</li>
-<li class="w3-bar">&nbsp;<strong>Clinical trial data:</strong> All clinical trial information should be recorded, handled, and stored in a way that allows its accurate reporting, interpretation and verification.</li>
-<li class="w3-bar"><strong>Confidentiality:</strong> The confidentiality of records that could identify subjects should be protected, respecting the privacy and confidentiality rules in accordance with the applicable regulatory requirement(s).</li>
-<li class="w3-bar"><strong>Good manufacturing practice:</strong> Investigational products should be manufactured, handled, and stored in accordance with applicable good manufacturing practice (GMP). They should be used in accordance with the approved protocol.</li>
-<li class="w3-bar"><strong>Quality assurance:</strong> Systems with procedures that assure the quality of every aspect of the trial should be implemented.</li>
-<li class="w3-bar"></li>
-</ol>
+{% include "partials/gcp-principles.html" %}
+
+## Participant Information Sheet
+
+Potential research volunteers are provided a written document called the Participant Information Sheet (PIS), which has been ethically approved and includes comprehensive study details. The purpose of a PIS is to ensure that participants are fully informed about the research, its objectives, procedures, risks, benefits, and their rights, enabling them to make an informed and voluntary decision about their participation.
+
+Typical content of PIS or share a pictorial example of PIS?
+(example to add or content)?
+
+### Informed Consent
+
+Prior to collecting data, participants are informed of the research's aim, objectives and methods, and their consent is requested. 
+
+The idea behind informed consent is that people shouldn't be forced into participating in research "against their will," but rather out of a sense of voluntarism and after fully understanding all of the potential consequences. 2018 Thorogood, page 89.
+
+**Definition:**
+
+<div class="w3-panel w3-leftbar w3-teal">
+<p class="w3-large">"A process by which a subject voluntarily confirms his or her willingness to participate in a particular trial, after having been informed of all aspects of the trial that are relevant to the subject’s decision to participate. Informed consent is documented by means of written signed and dated Informed Consent Form."</p>
+<p>(NIHR).</p>
+</div>
+
