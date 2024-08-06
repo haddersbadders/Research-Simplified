@@ -80,3 +80,85 @@ The idea behind informed consent is that people shouldn't be forced into partici
 <p>(NIHR).</p>
 </div>
 
+A two-way conversation with the prospective participant is what constitutes informed consent. Consent should be viewed as an information cycle because it is a process, not a single event. 
+
+While obtaining consent from participants, ensure:
+- they are adequately informed about the study
+- they understood the information
+- they had time to consider being involved in the study
+- They are free to decline or withdraw at any time, without having to give a reason.
+- they have the power of free choice
+
+### What does a Consent form look like?
+[ a  Sample from anywhere UoS etc here the in box ]
+
+### Vulnerable Groups
+Every human subject in the study has the potential to be vulnerable. People can be vulnerable in different ways and to varying degrees depending on their current circumstances. Some participants might be especially susceptible for taking part in research.
+While working with potentially vulnerable individuals, researchers will need to take additional ethical considerations into account.
+
+Vulnerable groups in research and healthcare ethics refer to individuals or populations who may be at an increased risk of harm, exploitation, or discrimination due to their characteristics, circumstances, or conditions. Ethical considerations for research and healthcare involving vulnerable groups are paramount, as these individuals often require special protections to ensure their rights, well-being, and dignity are upheld.
+
+
+The following groups of people are perceived to be particularly vulnerable in a research context:
+
+{% include "partials/vulnerable-groups-table.html" %}
+
+## Sensitive Topic and Ethics
+
+Sensitive topics in research and healthcare often involve issues that are deeply personal, emotionally charged, or potentially stigmatizing. Ethical considerations when dealing with sensitive topics are crucial to ensure the well-being, rights, and dignity of individuals or communities involved.
+
+'Sensitive' research entails unique risks that must be managed, taking into account the possible outcomes of these risks.
+
+ In this regard, the sensitivity of the research subject matter is also important. For instance, participants may be more vulnerable in a study focusing on any of the following topics:
+
+- ‘race’ or ethnicity;
+- political opinion;
+- trade union membership;
+- religious, spiritual or other beliefs;
+- physical or mental health conditions;
+- sex life, sexuality and/or gender identity;
+- identity of an individual resulting from processing of genetic or biometric data;
+- abuse (child, adult);
+- nudity and the body;
+- criminal or illegal activities;
+- political asylum;
+- conflict situations;
+
+
+
+<div class="w3-panel w3-teal">
+<h3>Generic principle of carrying out research with vulnerable individuals</h3>
+<p>When conducting research involving vulnerable individuals, the following general guidelines are helpful to keep in mind:</p>
+<ul>
+<li>Always consider your actions and decisions when conducting research.</li>
+<li>Recognise that the type and extent of participant vulnerability can vary depending on the specifics of a research project.</li>
+<li>When planning the study, try to keep potential participant risks to a minimum.</li>
+<li>Recognise that you might need to assist participants in finishing the study, and make the necessary preparations (not the least of which is an exit strategy).</li>
+<li>Offer a variety of options to potential participants when appropriate.</li>
+<li>Recognise that the type and extent of participant vulnerability can vary depending on the specifics of a research project.</li>
+<li>Recognise the dangers to participants, other potential participants, and researchers themselves.</li>
+</ul>
+<p><em>Adapted from the University of Sheffield</em></p>
+</div>
+
+## Support and Approvals in Ethics - Ethic Boards
+
+The majority of universities, hospitals, and other research-conducting organisations have formal committees in place to review research proposals.
+
+Ethical guidelines and ethics committees serve the dual purpose of safeguarding research participants and institutions by discouraging researchers from engaging in unethical behaviour that could have implication for research participants as well as negative consequences for their institutions. 
+
+The study protocol is submitted to the appropriate ethics committee for approval along with any supporting documentation (such as the Participant's information sheet and the informed consent form).
+
+Research projects involving staff and service evaluations frequently don't need NHS approval, but they do need to be registered with the departments of research and development.
+
+### Research Ethics Committee:
+
+<div class="w3-panel w3-leftbar w3-teal">
+<p><strong>Definition:</strong>  "A Research Ethics Committee is a group of people appointed to review research proposals to assess formally if the research is ethical. This means the research must conform to recognised ethical standards, which includes respecting the dignity, rights, safety and well-being of the people  who take part."</p>
+</div>
+
+### Data and Ethics:
+
+Big data is produced, stored, and analyzed by healthcare systems with the goal of enhancing the services they offer. Hospital records, patient medical records, exam results, and internet-of-things-enabled devices are just a few examples of the big data sources used in hospitals (Dash et al., 2019).
+
+In order to advance science and healthcare knowledge and to keep the public's trust in the research enterprise, it is crucial to ensure the integrity of research data (Ethic module -rephrased). The term "integrity" of such data refers to a strict adherence to moral principles, honesty, and complete avoidance of deception. 
