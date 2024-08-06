@@ -1,0 +1,35 @@
+<div class="w3-container w3-card w3-white w3-round-large">
+  {% if researchApproaches %}
+  <h3>{{ researchApproaches.title | default('Research Approaches Comparison') }}</h3>
+
+  <table class="w3-table w3-striped">
+    <thead>
+      <tr>
+        <th>Aspect</th>
+        <th>Qualitative Approach</th>
+        <th>Quantitative Approach</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for aspect in researchApproaches.aspects %}
+        <tr>
+          <td>{{ aspect.aspect | default('Aspect ' + loop.index) }}</td>
+          <td>{{ aspect.qualitative | default('N/A') }}</td>
+          <td>{{ aspect.quantitative | default('N/A') }}</td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+
+  {% if researchApproaches.sources and researchApproaches.sources.length > 0 %}
+    <h3>Sources:</h3>
+    <ul>
+      {% for source in researchApproaches.sources %}
+        <li>{{ source }}</li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+{% else %}
+  <p>No research approaches data available.</p>
+{% endif %}
+</div>

@@ -1,0 +1,109 @@
+{
+  "title": "Comprehensive Comparison of Qualitative and Quantitative Research Approaches",
+  "sources": [
+    "Liamputtong, Page 17",
+    "International Journal of Preventive Medicine 2021, 12: 20"
+  ],
+  "aspects": [
+    {
+      "aspect": "Data Type",
+      "qualitative": "Words, Observation, Symbol",
+      "quantitative": "Numbers, Statistical result"
+    },
+    {
+      "aspect": "Perspective",
+      "qualitative": "Participants' point of view",
+      "quantitative": "Researcher's point of view"
+    },
+    {
+      "aspect": "Focus",
+      "qualitative": "Meaning, Process",
+      "quantitative": "Behaviour, Static"
+    },
+    {
+      "aspect": "Understanding",
+      "qualitative": "Contextual understanding",
+      "quantitative": "Generalisation"
+    },
+    {
+      "aspect": "Data Characteristics",
+      "qualitative": "Rich, deep data",
+      "quantitative": "Hard, reliable data"
+    },
+    {
+      "aspect": "Structure",
+      "qualitative": "Unstructured",
+      "quantitative": "Structured"
+    },
+    {
+      "aspect": "Scale",
+      "qualitative": "Micro",
+      "quantitative": "Macro"
+    },
+    {
+      "aspect": "Setting",
+      "qualitative": "Natural settings",
+      "quantitative": "Artificial settings"
+    },
+    {
+      "aspect": "Theory",
+      "qualitative": "Theory emergent",
+      "quantitative": "Theory testing"
+    },
+    {
+      "aspect": "Researcher Position",
+      "qualitative": "Researcher close",
+      "quantitative": "Researcher distant"
+    },
+    {
+      "aspect": "Purpose",
+      "qualitative": "Answer \"Why?\" question, Explore and understand phenomena",
+      "quantitative": "Answer \"How many/much?\" question, Test and confirm hypotheses"
+    },
+    {
+      "aspect": "Approach",
+      "qualitative": "Observe and interpret",
+      "quantitative": "Measure and test"
+    },
+    {
+      "aspect": "Analysis",
+      "qualitative": "Grouping of common data, non-statistical analysis, Case-based descriptive or interpretive methods",
+      "quantitative": "Statistical analysis, Variable-based statistical or mathematical methods"
+    },
+    {
+      "aspect": "Nature of reality",
+      "qualitative": "Assumes existence of dynamic and multiple reality",
+      "quantitative": "Assumes there is a single reality"
+    },
+    {
+      "aspect": "Data collection methods",
+      "qualitative": "Semi-structured like in-depth interviews, observations and focus group discussions",
+      "quantitative": "Highly structured methods like questionnaires, inventories and scales"
+    },
+    {
+      "aspect": "Design",
+      "qualitative": "Flexible and emergent design",
+      "quantitative": "Predetermined and rigid design"
+    },
+    {
+      "aspect": "Reasoning",
+      "qualitative": "Primarily inductive to develop the theory or hypothesis",
+      "quantitative": "Deductive process to test the hypothesis"
+    },
+    {
+      "aspect": "Sampling",
+      "qualitative": "Based on purposive sampling methods",
+      "quantitative": "Rely largely on random sampling methods"
+    },
+    {
+      "aspect": "Sample size determination",
+      "qualitative": "Collect data until data saturation is achieved",
+      "quantitative": "Involves a-priori sample size calculation"
+    },
+    {
+      "aspect": "Sample size",
+      "qualitative": "Small sample size but studied in-depth",
+      "quantitative": "Relatively large"
+    }
+  ]
+}
