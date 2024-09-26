@@ -80,3 +80,9 @@ There are two types of sampling methods: **probability** and **non-probability**
 Although more expensive and time-consuming, probability sampling is generally considered superior. It is viewed as a much stronger sampling frame overall. Research textbooks often caution that studies using non-probability sampling frames should be approached with great care.
 
 The common types of probability sampling methods are summarised below:
+
+# ((Tables to go here))
+
+**Non-probability sampling** is employed when achieving a probability-based sample is not feasible. However, it is crucial for the researcher and reader to ensure that the sample avoids bias in representing specific population segments disproportionately. In this type of sampling, not every subject has an equal chance of being included in the sample.
+
+Qualitative research often utilizes non-probability sampling, and in this context, a smaller sample size is considered a strength rather than a weakness. It's important to note that non-probability sampling is also used in quantitative research, though it is generally viewed as less favorable than probability sampling methods. The following outlines non-probability/qualitative sampling techniques:
