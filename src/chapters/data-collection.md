@@ -86,3 +86,29 @@ The common types of probability sampling methods are summarised below:
 **Non-probability sampling** is employed when achieving a probability-based sample is not feasible. However, it is crucial for the researcher and reader to ensure that the sample avoids bias in representing specific population segments disproportionately. In this type of sampling, not every subject has an equal chance of being included in the sample.
 
 Qualitative research often utilizes non-probability sampling, and in this context, a smaller sample size is considered a strength rather than a weakness. It's important to note that non-probability sampling is also used in quantitative research, though it is generally viewed as less favorable than probability sampling methods. The following outlines non-probability/qualitative sampling techniques:
+
+# ((Tables to go here))
+
+### Sample Size
+
+Determining the appropriate sample size is a crucial step in research, and various factors influence this decision. There is no one-size-fits-all rule for establishing sample size, but several considerations come into play:
+	
+  - **Type of Design**: The nature of the research design impacts the required sample size.
+	- **Sampling Procedures**: The method used for sampling plays a role in determining the sample size.
+	- **Formula for Estimation**: The specific formula employed to estimate the optimal sample size is a key factor.
+	- **Precision Requirement**: The desired degree of precision in the study influences sample size.
+	- **Heterogeneity of Attributes**: The diversity of characteristics being investigated affects sample size determination.
+	- **Frequency of Phenomenon Occurrence**: Whether the phenomenon is common or rare in the population is a significant consideration.
+	- **Project Cost**: The financial implications of employing a particular sampling strategy need to be considered.
+
+It is advisable to determine the sample size before commencing the study, and a general guideline is to aim for the largest sample feasible. Larger samples tend to be more representative of the population, enhancing the reliability of results. Conversely, smaller samples may yield less accurate findings.
+In quantitative research, larger sample sizes are typically used compared to qualitative research. Quantitative researchers often employ a statistical procedure called power analysis to estimate the appropriate sample size. For further understanding, a paper by Eng (2003) in the field of radiology provides insights into sample size calculation in quantitative research.
+
+<a href="Eng, J. (2003). Sample Size Estimation: How Many Individuals Should Be Studied? 1. Radiology, 227(2), 309-313 " target="_blank">Eng, J. (2003). Sample Size Estimation: How Many Individuals Should Be Studied? 1. Radiology, 227(2), 309-313 </a> **NEEDS TO BE ON LIBRARY**
+
+In qualitative research, sample size is not predetermined. Due to the extensive analysis of verbal data and the emphasis on intensive participant contact, qualitative research often involves small sample sizes. Participants are added until data saturation is achieved, indicating that no new data emerges during the collection process. Mason's paper (2010) on sample size and saturation in qualitative interviews provides valuable insights into determining appropriate sample sizes in qualitative research.
+
+<a href="#" target="_blank">Mason, M. (2010, August). Sample size and saturation in PhD studies using qualitative interviews. In Forum Qualitative Sozialforschung/Forum: Qualitative Social Research (Vol. 11, No. 3)</a> **NEEDS TO BE ON LIBRARY**
+
+Additionally, guidelines for various qualitative approaches can be found in the accompanying table.
+
