@@ -52,7 +52,7 @@ For instance, if I'm examining assertiveness skills among nurses in the UK, my t
 
 The aim of research is to benefit the entire population, but involving every member is impractical, costly, and time-consuming. This is where sampling becomes crucial. It plays a vital role in project management, especially when recruiting too many participants is impractical. Given the time, money, and resource constraints of research projects, however, researchers must ensure that the sample size and composition align with the study's objectives to support their findings and conclusions.
 
-<div class="w3-panel w3-blue-gray w3-large">
+<div class="w3-panel w3-blue-gray w3-large w3-padding">
      Sampling is the process of selecting a portion of the population to represent the entire population. A sample, therefore, is a subset of a population selected to participate in a research study. This is a specific group of people that you will collect data from. 
      </div>
 
@@ -112,3 +112,74 @@ In qualitative research, sample size is not predetermined. Due to the extensive 
 
 Additionally, guidelines for various qualitative approaches can be found in the accompanying table.
 
+#### Sample size in qualitative research
+
+{% include "partials/sample-size-quants-table.html" %}
+
+#### Research Participant
+
+A research participant, also known as a human subject, experimentee, trial participant, study participant, or subject, is an individual who willingly takes part in human subject research after providing informed consent to be the subject of the study. A research participant is often a volunteer who consents to participate in the research on equal terms.
+
+#### Identification and Recruitment of Participants
+
+Identification and recruitment of appropriate participants to the research study can be a big challenge for the researcher. Recruitment refers to a dialogue that takes place between a researcher and a potential participant prior to the initiation of the consent process. It begins with the identification, targeting and enlistment of participants (volunteer patients or controls) for a research study. It involves providing information to the potential participants and generating their interest in the proposed study. There are two main goals of recruitment:
+
+- To recruit a sample that adequately represents the target population
+- To recruit sufficient participants to meet the sample size and power requirements of the study
+
+<div class="w3-panel w3-blue-gray w3-large w3-padding">
+<h4>Data collection</h4>
+
+<p>Data collection refers to refers to the process of collecting or gathering data about a particular research question.</p>
+</div>
+
+Any data collection method should have some basic characteristics and these may include attention to some points as described below.
+
+{% include "partials/data-collection-methods-table.html" %}
+
+Data collection methods are often dependent on research questions and methodological approaches i.e., qualitative and quantitative research. Researchers can employ a single or a number of data collection methods to collect information. 
+
+Both qualitative and quantitative researchers use a combination of methods of data collection. 
+
+The main data collection methods used by healthcare researchers include the following:
+
+<img src="/images/MethodsDataCollection.jpg" alt="methods of data collection:Questionnaire, Scales, Physiological Measures, Interviews, Focus Group Discussion and Observation" />
+
+### Questionnaire
+
+Data collection via questionnaires involves a variety of instruments falling under the umbrella term "questionnaire." These instruments can take different forms, including:
+
+-	Closed responses
+-	Open responses
+-	Checklists
+-	Rating scales
+-	Open-ended comments
+
+Questionnaires are designed to be both standardized and structured. In quantitative research, they serve various purposes, with a common application in descriptive studies, especially surveys. This is because questionnaires efficiently collect a broad range of information on facts, beliefs, attitudes, and experiences from numerous participants in a relatively quick and cost-effective manner. Questionnaires can consist of a single question type or a combination of different methods, categorized as either:
+
+- **Self-reported**: Completed by the participant without the researcher's presence.
+- **Researcher-assisted**: The researcher employs the questionnaire to interview the participant.
+
+Despite their seemingly straightforward nature, crafting a questionnaire requires careful consideration. Elements such as selecting question types, formulating questions, structuring the questionnaire, conducting pilot tests, and managing distribution and collection/return processes demand attention to ensure the reliability and validity of the collected data.
+
+#### General Principles of Questionnaires
+
+The fundamental principles of questionnaires encompass several key aspects:
+
+- **Primary Aim**: The primary goal is effective communication with the participant.
+- **Question Clarity**: Questions must be understandable and structured appropriately to facilitate responses.
+-	**Language Importance**: Language plays a central role in framing questions to elicit expected responses, known as the 'frame of reference' or context.
+-	**Information Level**: The language should align with participants' comprehension levels. Considerations include literacy, ethnic and cultural backgrounds, age, and participants' understanding. Special care is needed when addressing sensitive topics, such as sexuality or abuse, and the use of technical language requires caution. The language should avoid being overly simplistic, patronizing, or utilizing confusing, embarrassing, or upsetting terms.
+
+#### Questionnaire Design
+
+-	**Investigation Scope**: The design should delve into the minimum amount of a person's experience necessary to answer the research question.
+-	**Information Collection**: It should collect only essential information, including some biographical or demographic details.
+-	**Comprehensive Questions**: Questions need careful consideration to ensure comprehensiveness.
+-	**Appropriate Length**: The questionnaire should maintain an appropriate length.
+
+Note: While these considerations focus on content, they do not address the questionnaire's appearance, functionality, and layout, including aspects like typography, graphics, instructions, and spacing.
+
+#### Questionnaire Administration
+
+Questionnaires, often used for large-scale data collection, can be administered through various means, including pen and paper, web-based platforms, or telephone interviews. The diagram below illustrates the diverse methods through which questionnaires (sometimes referred to as surveys) are conducted.
