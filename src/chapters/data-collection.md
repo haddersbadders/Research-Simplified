@@ -183,3 +183,5 @@ Note: While these considerations focus on content, they do not address the quest
 #### Questionnaire Administration
 
 Questionnaires, often used for large-scale data collection, can be administered through various means, including pen and paper, web-based platforms, or telephone interviews. The diagram below illustrates the diverse methods through which questionnaires (sometimes referred to as surveys) are conducted.
+
+{% include "partials/Questionnaire-Admin.html" %}
