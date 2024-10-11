@@ -185,3 +185,166 @@ Note: While these considerations focus on content, they do not address the quest
 Questionnaires, often used for large-scale data collection, can be administered through various means, including pen and paper, web-based platforms, or telephone interviews. The diagram below illustrates the diverse methods through which questionnaires (sometimes referred to as surveys) are conducted.
 
 {% include "partials/Questionnaire-Admin.html" %}
+
+### Biophysiological Measures in Healthcare Research
+
+Healthcare professionals routinely measure biophysiological physical variables, necessitating specialized technical instruments and equipment. These measures can be broadly classified into two types: in vivo measures conducted directly within or on living organisms, and in vitro measures performed outside the body using materials extracted from it (e.g., serum potassium levels). Nursing researchers frequently employ biophysiological measures in their studies, covering various domains:
+	
+- **Circulatory Function**: Heart rate, arterial blood pressure
+- **Respiratory Function**: Respiratory rate, tidal volume, alveolar ventilation
+-	**Neurological Function**: Peripheral skin temperature
+-	**Blood Tests**: Blood gas analysis, blood pH
+-	**Urine Tests**: Urinary cortisol level
+-	**Umbilical Cord Culture**: Bacterial colonization rates, Staphylococcus aureus, and Group B Streptococcus
+	
+#### Biophysiological Measures as Data Collection:
+
+-	**Objective**: The equipment used and the individuals interpreting results are likely to be consistent, ensuring objectivity.
+-	**Accuracy, Precision, and Sensitivity**: Biophysiological measures are relatively accurate, precise, and sensitive in capturing subtle changes.
+-	**Non-Distorted Measurements**: There is a low likelihood of deliberately distorted measurements, enhancing the reliability of the collected data.
+-	**Validity**: The instruments employed provide targeted measurements aligned with the study variables, ensuring validity.
+-	**Economic Efficiency**: Utilizing biophysiological measures for data collection is economical. When the required equipment and expertise are readily available in a hospital setting, the cost of data collection is reduced.
+
+In summary, leveraging biophysiological measures in healthcare research not only ensures the objectivity, accuracy, and validity of data but also proves to be a cost-effective and efficient approach when conducted within a hospital environment with existing expertise and equipment.
+
+
+### Interviews
+
+Interviews are a well-established data collection technique and probably the most commonly used data collection method in healthcare research. 
+Individual interviews are frequently used in healthcare settings to investigate patients' opinions and experiences regarding the provision, delivery, and calibre of care, as well as to solicit suggestions for improvement. 
+
+Interviews can be:
+
+-	Structured
+-	Unstructured
+-	Semi-structured
+
+Structured interviews are commonly used in market research and the aim is to ask all the respondents the same questions uniformly. The wording is planned in advance and each question is asked in the same order and in the same manner. Interviewers are trained to adhere to a protocol. Interviews carried out in this manner are very similar to questionnaires but the problem of poor response rate is significantly reduced as the data is being collected directly at the time.
+
+The problems with this type of interview are that respondents can’t give sophisticated answers or indeed any answer that is not given in the interview schedule. There is a lack of opportunity for free expression and this means some relevant issues may not be covered.
+
+#### Key points to remember when Interviewing a participant (Interview Tips)
+
+-	Plan your interview
+-	Explain the interview process
+-	Ask open-ended questions
+-	Avoid leading questions
+-	Avoid long questions
+-	Early questions should be easy to answer
+-	Be active listener 
+-	Avoid using complex medical terminology or technical jargon or ambigious terms
+-	Prepare an interview guide (See Figure)
+-	Share interview guide if necessary - it prepares participants for the interview
+-	Add as you want
+-	Audio/Video Record the interview (with permission) - Recording frees you up to concentrate on your interview and also enhances validity and reliability of data collection.
+-	Confirm time, date and location of interview in advance - 
+
+
+
+#### Interview guide
+
+An interview guide is essentially a structured interview schedule that consists of a limited set of questions accompanied by follow-up prompts to facilitate additional discussion. While developing an interview guide, it is advisable to research the topic in detail and consult with others who have knowledge of the research area. It does not mean involving researchers, often services users and carers are expert in the area and can help develop the interview questions. It is also essential to pilot the interview guide in order to test the questions and obtain some interviewing experience. Keep your interview guide flexible, so that there is a space for participants to bring diverse perspectives into the interview. 
+
+<div class="w3-panel w3-teal">
+<h4>Appendix 1: Interview guide</h4>
+<p><strong>Topic. Treatment (elder abuse) of older people in Asian communities living in the UK.</strong></p>
+<ol>
+<li><strong> Introduction and consent</strong></li>
+</ol>
+<ul>
+<li>Introduce to self and the research</li>
+<li>Clarify the content of the interview</li>
+<li>Explain confidentiality and gain verbal consent</li>
+<li>Length of interview (1 hour with breaks) and recording, and nature of discussions</li>
+<li>Check whether have any question and happy to continue</li>
+</ul>
+<ol start="2">
+<li><strong> Background (Demographic) data</strong></li>
+</ol>
+<ul>
+<li>Age&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;..</li>
+<li>Area/Location&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;</li>
+<li>Educational achievement&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;</li>
+<li>Gender&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;.</li>
+<li>Religion&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;..</li>
+<li>Ethnicity&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;..</li>
+<li>Country of Birth&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;</li>
+</ul>
+<ol start="3">
+<li><strong> Family dynamics and traditions</strong></li>
+</ol>
+<ul>
+<li>Different culture roles and definitions</li>
+<li>Family and community role in conflicts and care</li>
+<li>Compare the treatment of older people in the country of origin and the UK</li>
+<li>Views about Care homes and institutionalizing of older person</li>
+</ul>
+<ol start="4">
+<li><strong> Social structure and processes</strong></li>
+</ol>
+<ul>
+<li>Migratory experiences; gains and losses</li>
+<li>Views on traditions, culture, changing norms</li>
+<li>Factors influence on the treatment of older people</li>
+</ul>
+<ol start="5">
+<li><strong> Understanding of elder mistreatment</strong></li>
+</ol>
+<ul>
+<li>How older people are treated in the community</li>
+<li>If mistreatment, types of mistreatment</li>
+<li>Reasons of mistreatment and who is more likely to experience mistreatment &ndash; gender, age</li>
+<li>Any experience personal or others of mistreatment</li>
+<li>Impact of mistreatment</li>
+</ul>
+<ol start="6">
+<li><strong> Barriers and facilitator of mistreatment</strong></li>
+</ol>
+<ul>
+<li>What are/should be coping mechanisms in the face of abuse</li>
+<li>What are the first and or best channels of support/reporting</li>
+<li>Awareness of support services/help</li>
+<li>What stops in seeking help</li>
+</ul>
+<p><strong>Interview probes</strong></p>
+<p>Can you tell me more about that?</p>
+<p>Can you give me an example?</p>
+<p>So you are saying&hellip;?</p>
+<p>Have you always felt this way?</p>
+<p>What is significant about this to you?</p>
+<p>How so?</p>
+<p>How has your approach changed over time?</p>
+<p>And what do you think of that approach?</p>
+
+</div>
+
+### Focus Group Discussion
+
+<img src="/images/focus-group.png" alt="a group of bobble people talking around a table" style="width:100%;max-width:400px; float:left; margin-right: 1em;" class="w3-round" />
+In the realm of qualitative research, a Focus Group Discussion (FGD) stands as a dynamic and engaging method, facilitating in-depth conversations among a small, diverse group of participants. Imagine it as a face-to-face interview, orchestrated by a skilled moderator or facilitator, bringing together individuals to delve into their perceptions, perspectives, and opinions about a specific topic. This carefully planned discussion unfolds in a non-threatening and supportive environment, fostering open dialogue and sharing.
+
+Originally crafted for marketing research, the utility of FGDs extends across various domains, including business management, social sciences, and healthcare research. This method transcends the traditional interview format, fostering a collective and shared exploration of social meanings. It is a living interaction, providing an open platform for individuals to express criticism, share negative views, or discuss sensitive topics like domestic violence.
+In crafting a Focus Group, the selection of participants is strategic. For discussions on sensitive topics, such as domestic violence, homogenous groups are preferred, where participants share a specific demographic characteristic like race or ethnicity. This homogeneity creates a comfortable and safe space for participants to candidly share their true opinions and experiences.
+
+Typically, a well-orchestrated FGD involves seven to ten participants. Managing a group with more than ten can be challenging, while a group with fewer than seven may not yield the depth and richness desired in the discussion. The session usually spans between 1 and 2 hours, allowing sufficient time for exploration and meaningful dialogue.
+In essence, a Focus Group Discussion is not just a method; it's an orchestrated conversation that unveils collective insights, encourages open expression, and enriches the understanding of complex phenomena. Whether you're exploring consumer preferences, organizational dynamics, or sensitive social issues, FGDs offer a unique window into the diverse tapestry of human perspectives.
+
+#### Advantages, disadvantages and challenges of Focus Group Discussions
+
+{% include "partials/fgd.html" %}
+
+#### Key Considerations When Planning Interviews or Focus Group Discussions
+
+When planning interviews or focus group discussions, it is crucial to carefully consider several key factors:
+
+-	**Agenda Setting**: Confirm whether a clear agenda has been established for the discussion.
+-	**Aims and Objectives**: Ensure that the aims and objectives of the interview or discussion are well-defined.
+-	**Methodology Clarity**: Clearly outline the method of conducting the interview or discussion to provide participants with a transparent framework.
+-	**Participant Selection Rationale**: Clearly articulate the reasons why specific participants were chosen for the interview or focus group.
+-	**Predefined Time Scale**: Establish a predefined time scale to manage the duration of the session effectively.
+-	**Data Recipient**: Clearly identify who the intended recipient of the collected data is and what purpose it will serve.
+-	**Usage of Data**: Understand how the gathered data will be utilized and its implications.
+
+Handling the interview plays a pivotal role in ensuring the participant's comfort, minimizing anxiety and distress, and fostering an environment conducive to obtaining honest answers. While the necessity of rapport between the interviewer and interviewees may be debatable, it is essential for participants to feel at ease to provide relevant information.
+
+In essence, a well-planned and executed interview or focus group discussion considers these elements to enhance the quality and effectiveness of data collection while prioritizing the participant's comfort and the integrity of the information obtained.
