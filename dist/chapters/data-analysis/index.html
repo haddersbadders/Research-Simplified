@@ -1,65 +1,108 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Data Analysis | </title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Data Analysis | </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/css/bulma.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
-<style>
-body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
-</style>
-<link rel="stylesheet" href="/css/custom.css">
+    <style>
+        body, h1, h2, h3, h4, h5, h6 { font-family: "Raleway", sans-serif }
+        /* Temporary padding for the sidebar in desktop view */
+        @media screen and (min-width: 1024px) {
+            .main-content { padding-left: 1.5rem; }
+        }
+    </style>
+    <link rel="stylesheet" href="/css/custom.css">
 </head>
-<body class="w3-light-grey">
-<!-- Sidebar/menu -->
-    <nav class="w3-sidebar w3-collapse w3-black" style="z-index:3;width:300px;" id="mySidebar"><br>
-    <div class="w3-container">
-      <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-large w3-padding w3-hover-grey" title="close menu">
-        <i class="fa fa-remove"></i>
-      </a>
+<body class="has-background-light">
+    <!-- Navbar for Mobile -->
+    <nav class="navbar is-hidden-desktop is-black" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="/">
+                <strong>Research Simplified: A Healthcare Professional&#39;s Guide.</strong>
+            </a>
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="mobileNavbar">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div id="mobileNavbar" class="navbar-menu">
+            <div class="navbar-start">
+                <a href="/" class="navbar-item">Home</a>
+                
+                    <a href="/chapters/an-introduction-to-research/" class="navbar-item">An Introduction to Research</a>
+                
+                    <a href="/chapters/the-research-question/" class="navbar-item">The Research Question</a>
+                
+                    <a href="/chapters/literature-review/" class="navbar-item">Literature Review</a>
+                
+                    <a href="/chapters/research-design/" class="navbar-item">Research Design</a>
+                
+                    <a href="/chapters/ethics-and-integrity/" class="navbar-item">Ethics and Integrity</a>
+                
+                    <a href="/chapters/data-collection/" class="navbar-item">Data Collection</a>
+                
+                    <a href="/chapters/data-analysis/" class="navbar-item">Data Analysis</a>
+                
+                    <a href="/chapters/evidence-based-practice/" class="navbar-item">Evidence-Based Practice</a>
+                
+                    <a href="/chapters/research-proposal/" class="navbar-item">Research Proposal</a>
+                
+            </div>
+        </div>
+    </nav>
+
+    <div class="columns is-gapless is-marginless">
+        <!-- Sidebar for Desktop -->
+        <div class="column is-2 is-hidden-touch is-fullheight section is-black" style="min-height: 100vh; position: sticky; top: 0;">
+            <aside class="menu">
+    <div class="mb-5">
+        <h1 class="title is-4 has-text-white">Research Simplified: A Healthcare Professional&#39;s Guide.</h1>
     </div>
-    <div class="w3-container brand w3-border-bottom w3-border-grey w3-margin-right w3-margin-left">
-      <h1>Research Simplified: A Healthcare Professional&#39;s Guide.</h1>
-      <!-- <h3>Basics of Research for Healthcare Professionals</h3> -->
-    </div>
-    <div class="w3-bar-block">
-      <a href="/" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-white"></i>Home</a> 
-  <!-- <h3 class="w3-margin w3-border-bottom">Chapters</h3> -->
+    <p class="menu-label has-text-grey-light">
+        General
+    </p>
+    <ul class="menu-list">
+        <li><a href="/" class="has-text-white">Home</a></li>
+    </ul>
+    <p class="menu-label has-text-grey-light">
+        Chapters
+    </p>
+    <ul class="menu-list">
+        
+            <li><a href="/chapters/an-introduction-to-research/" class="has-text-white">An Introduction to Research</a></li>
+        
+            <li><a href="/chapters/the-research-question/" class="has-text-white">The Research Question</a></li>
+        
+            <li><a href="/chapters/literature-review/" class="has-text-white">Literature Review</a></li>
+        
+            <li><a href="/chapters/research-design/" class="has-text-white">Research Design</a></li>
+        
+            <li><a href="/chapters/ethics-and-integrity/" class="has-text-white">Ethics and Integrity</a></li>
+        
+            <li><a href="/chapters/data-collection/" class="has-text-white">Data Collection</a></li>
+        
+            <li><a href="/chapters/data-analysis/" class="has-text-white">Data Analysis</a></li>
+        
+            <li><a href="/chapters/evidence-based-practice/" class="has-text-white">Evidence-Based Practice</a></li>
+        
+            <li><a href="/chapters/research-proposal/" class="has-text-white">Research Proposal</a></li>
+        
+    </ul>
+</aside>
 
-<a href="/chapters/an-introduction-to-research/" class="w3-bar-item w3-button w3-padding w3-text-white">An Introduction to Research</a> 
+        </div>
 
-<a href="/chapters/the-research-question/" class="w3-bar-item w3-button w3-padding w3-text-white">The Research Question</a> 
-
-<a href="/chapters/literature-review/" class="w3-bar-item w3-button w3-padding w3-text-white">Literature Review</a> 
-
-<a href="/chapters/research-design/" class="w3-bar-item w3-button w3-padding w3-text-white">Research Design</a> 
-
-<a href="/chapters/ethics-and-integrity/" class="w3-bar-item w3-button w3-padding w3-text-white">Ethics and Integrity</a> 
-
-<a href="/chapters/data-collection/" class="w3-bar-item w3-button w3-padding w3-text-white">Data Collection</a> 
-
-<a href="/chapters/data-analysis/" class="w3-bar-item w3-button w3-padding w3-text-white">Data Analysis</a> 
-
-<a href="/chapters/evidence-based-practice/" class="w3-bar-item w3-button w3-padding w3-text-white">Evidence-Based Practice</a> 
-
-<a href="/chapters/research-proposal/" class="w3-bar-item w3-button w3-padding w3-text-white">Research Proposal</a> 
-
-</div>
-</nav>
-<!-- Overlay effect when opening sidebar on small screens -->
-<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
-
-<!-- !PAGE CONTENT! -->
-<div class="w3-main" style="margin-left:300px">
-  <!-- Header -->
-  <div>
-    <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
-  </div>
-    
+        <!-- Main Content -->
+        <div class="column is-10 main-content">
+            <section class="section">
+                <div class="container">
+                    
 <article class="w3-container">
 
   
@@ -252,15 +295,36 @@ The process of thematic analysis typically involves the following key steps:</p>
   </main>
   </article>
 
-  <!-- Footer -->
-  <footer class="w3-black w3-center w3-padding-24">
-  <div class="w3-row-padding">
-   <p><a href="https://www.sheffield.ac.uk/" title="The University of Sheffield" target="_blank" class="w3-hover-opacity">University of Sheffield </a></p>
-  </div>
-  </footer>
-<!-- End page content -->
-</div>
+                </div>
+            </section>
 
-<script src="/js/index.js"></script>
+            <!-- Footer -->
+            <footer class="footer has-background-black has-text-centered has-text-white py-6">
+                <div class="content">
+                    <p>
+                        <a href="https://www.sheffield.ac.uk/" title="The University of Sheffield" target="_blank" class="has-text-white is-underlined">University of Sheffield</a>
+                    </p>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <script src="/js/index.js"></script>
+    <script>
+        // Simple Bulma Burger Toggle
+        document.addEventListener('DOMContentLoaded', () => {
+            const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+            if ($navbarBurgers.length > 0) {
+                $navbarBurgers.forEach( el => {
+                    el.addEventListener('click', () => {
+                        const target = el.dataset.target;
+                        const $target = document.getElementById(target);
+                        el.classList.toggle('is-active');
+                        $target.classList.toggle('is-active');
+                    });
+                });
+            }
+        });
+    </script>
 </body>
 </html>
