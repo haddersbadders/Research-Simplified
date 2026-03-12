@@ -14,7 +14,7 @@ Data collection is an important element in the research process that helps a res
 
 Before delving into the specifics of data collection and its contents, it is essential to grasp the fundamental variables that define this process.
 
-<div class="w3-panel w3-teal">
+<div class="notification is-info is-light">
 <h2>What is Data?</h2>
 <p>Any information, often numerical or qualitative, that has been gathered, seen, produced, or created to support initial research findings is referred to as data. </p>
 </div>
@@ -30,7 +30,7 @@ Data can be divided into two types that are:
 
 A research population constitute a broad group of people or things, with common, defining characteristics, that are the primary subject of a particular study. A population is the total collection of cases that satisfy certain requirements. 
 
-<div class="w3-panel w3-xlarge w3-blue-gray">
+<div class="notification is-info is-light is-size-4">
 A research population means a well-defined collection of individuals or objects known to have similar characteristics.
 </div>
 
@@ -52,7 +52,7 @@ For instance, if I'm examining assertiveness skills among nurses in the UK, my t
 
 The aim of research is to benefit the entire population, but involving every member is impractical, costly, and time-consuming. This is where sampling becomes crucial. It plays a vital role in project management, especially when recruiting too many participants is impractical. Given the time, money, and resource constraints of research projects, however, researchers must ensure that the sample size and composition align with the study's objectives to support their findings and conclusions.
 
-<div class="w3-panel w3-blue-gray w3-large w3-padding">
+<div class="notification is-info is-light p-4">
      Sampling is the process of selecting a portion of the population to represent the entire population. A sample, therefore, is a subset of a population selected to participate in a research study. This is a specific group of people that you will collect data from. 
      </div>
 
@@ -127,7 +127,7 @@ Identification and recruitment of appropriate participants to the research study
 - To recruit a sample that adequately represents the target population
 - To recruit sufficient participants to meet the sample size and power requirements of the study
 
-<div class="w3-panel w3-blue-gray w3-large w3-padding">
+<div class="notification is-info is-light p-4">
 <h4>Data collection</h4>
 
 <p>Data collection refers to refers to the process of collecting or gathering data about a particular research question.</p>
@@ -245,7 +245,7 @@ The problems with this type of interview are that respondents can’t give sophi
 
 An interview guide is essentially a structured interview schedule that consists of a limited set of questions accompanied by follow-up prompts to facilitate additional discussion. While developing an interview guide, it is advisable to research the topic in detail and consult with others who have knowledge of the research area. It does not mean involving researchers, often services users and carers are expert in the area and can help develop the interview questions. It is also essential to pilot the interview guide in order to test the questions and obtain some interviewing experience. Keep your interview guide flexible, so that there is a space for participants to bring diverse perspectives into the interview. 
 
-<div class="w3-panel w3-teal">
+<div class="notification is-info is-light">
 <h4>Appendix 1: Interview guide</h4>
 <p><strong>Topic. Treatment (elder abuse) of older people in Asian communities living in the UK.</strong></p>
 <ol>
@@ -320,7 +320,7 @@ An interview guide is essentially a structured interview schedule that consists 
 
 ### Focus Group Discussion
 
-<img src="/images/focus-group.png" alt="a group of bobble people talking around a table" style="width:100%;max-width:400px; float:left; margin-right: 1em;" class="w3-round" />
+<img src="/images/focus-group.png" alt="a group of bobble people talking around a table" style="width:100%;max-width:400px; float:left; margin-right: 1em;" class="is-rounded" />
 In the realm of qualitative research, a Focus Group Discussion (FGD) stands as a dynamic and engaging method, facilitating in-depth conversations among a small, diverse group of participants. Imagine it as a face-to-face interview, orchestrated by a skilled moderator or facilitator, bringing together individuals to delve into their perceptions, perspectives, and opinions about a specific topic. This carefully planned discussion unfolds in a non-threatening and supportive environment, fostering open dialogue and sharing.
 
 Originally crafted for marketing research, the utility of FGDs extends across various domains, including business management, social sciences, and healthcare research. This method transcends the traditional interview format, fostering a collective and shared exploration of social meanings. It is a living interaction, providing an open platform for individuals to express criticism, share negative views, or discuss sensitive topics like domestic violence.
@@ -351,9 +351,9 @@ In essence, a well-planned and executed interview or focus group discussion cons
 
 ### Observation
 
-<img src="/images/cooking-7614761_1280.jpg" alt="a woman and a child cooking" style="width:100%;max-width:100%;" class="w3-round" />
+<img src="/images/cooking-7614761_1280.jpg" alt="a woman and a child cooking" style="width:100%;max-width:100%;" class="is-rounded" />
 
-<div class="w3-panel w3-blue-gray w3-large w3-padding">
+<div class="notification is-info is-light p-4">
 <p>Observation as a data collection strategy holds a prominent position in both qualitative and quantitative research.</p>
 
 <p>Observational research is a data collection method where participants are observed in their natural or designated settings, such as a laboratory, at specific times and days. This approach allows for a deeper understanding of complex situations by going beyond verbal expressions and instead focusing on observing behaviors, actions, and interactions.</p>

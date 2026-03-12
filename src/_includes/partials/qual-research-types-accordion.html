@@ -1,11 +1,13 @@
-<div class="w3-bar w3-teal">
-  <button class="w3-bar-item w3-button" onclick="openQualRes('GT')">Grounded Theory</button>
-  <button class="w3-bar-item w3-button" onclick="openQualRes('Phenomenology')">Phenomenology</button>
-  <button class="w3-bar-item w3-button" onclick="openQualRes('Ethnography')">Ethnography</button>
+<div class="tabs is-toggle is-fullwidth">
+  <ul>
+    <li class="is-active"><a onclick="openQualRes('GT', this)"><span>Grounded Theory</span></a></li>
+    <li><a onclick="openQualRes('Phenomenology', this)"><span>Phenomenology</span></a></li>
+    <li><a onclick="openQualRes('Ethnography', this)"><span>Ethnography</span></a></li>
+  </ul>
 </div>
 
 
-<div id="GT" class="qualres w3-card w3-padding">
+<div id="GT" class="qualres card p-4">
   <h2>Grounded Theory</h2>
   <p><strong>Description</strong></p>
   <p>
@@ -31,7 +33,7 @@
 <p><strong>Memo writing</strong>. Memos are written records of a researcher's ideas, reflections, and thoughts on the research process. Memos offer a record of the researchers' analytical decisions and logistical information regarding their research activities.</p>
 </div>
 
-<div id="Phenomenology" class="qualres w3-card w3-padding" style="display:none">
+<div id="Phenomenology" class="qualres card p-4" style="display:none">
   <h2>Phenomenology</h2>
   <p><strong>Description</strong></p>
   <p>Phenomenology is concerned with the lived experiences of humans and of the ways things present themselves to us in and through such experiences (Sokolowski 2000, 2).
@@ -42,7 +44,7 @@
 <p><strong>Bracketing</strong> is used by researchers to temporarily suspend or set aside their preconceptions and biases, allowing them to focus solely on the phenomena as experienced by participants.<br /><br /><strong>Hermeneutic Circle:</strong> Phenomenological research involves an iterative process where the researcher continually moves between the parts and the whole, refining the analysis to gain a deeper understanding of the phenomenon.</p>
 </div>
 
-<div id="Ethnography" class="qualres w3-card w3-padding" style="display:none">
+<div id="Ethnography" class="qualres card p-4" style="display:none">
   <h2>Ethnography</h2>
   <p><strong>Description</strong></p>
   <p>Ethnography involves the in-depth study of a specific cultural group or community. Researchers immerse themselves in the field, often through participant observation and interviews, to understand the culture, behaviours, beliefs, and social dynamics of the group. Ethnography seeks to provide a holistic and context-rich perspective on the lives and experiences of the people within the studied community.</p>

@@ -13,7 +13,7 @@ We ask questions to learn more about things. In our daily personal and professio
 
 Asking a question and converting it into a good research question is the first and foremost step of the research process. Developing a research question in itself is a process that starts with the selection of a broad research topic. After choosing the topic of one’s interest, the researcher goes through the initial literature search to find out what research has already been done and what literature already exists on the topic. This helps the researcher to further refine the research question to ensure it is appropriate for a scientific inquiry. So choosing a topic is the initial step.
 
-<div class="w3-panel w3-teal">
+<div class="notification is-info is-light">
 <p>A research question is a precise, clear, focused and operational question formulated by researchers at the beginning of the study.</p>
 
 <p>A research question is:</p>
@@ -81,9 +81,9 @@ Qualitative and quantitative questions differ in their nature, purpose, and the 
 
 Here are the key differences between the two:
 
-<table class="w3-table-all">
+<table class="table is-fullwidth">
   <thead>
-    <tr class="w3-dark-grey">
+    <tr class="has-background-grey-dark">
       <th scope="col">Qualitative Research Question</th>
       <th scope="col">Quantitative Research Question
 

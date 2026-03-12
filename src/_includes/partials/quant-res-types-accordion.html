@@ -1,12 +1,14 @@
-<div class="w3-container w3-card w3-white w3-round-large w3-padding-16">
-<div class="w3-bar w3-teal">
-    <button class="w3-bar-item w3-button" onclick="openQuantRes('RCT')">Randomized controlled trials</button>
-    <button class="w3-bar-item w3-button" onclick="openQuantRes('CSRS')">Cross-sectional Research study</button>
-    <button class="w3-bar-item w3-button" onclick="openQuantRes('LRS')">Longitudinal Research Study</button>
-  </div>
+<div class="container card has-background-white is-rounded p-4">
+<div class="tabs is-toggle is-fullwidth">
+  <ul>
+    <li class="is-active"><a onclick="openQuantRes('RCT', this)"><span>Randomized controlled trials</span></a></li>
+    <li><a onclick="openQuantRes('CSRS', this)"><span>Cross-sectional Research study</span></a></li>
+    <li><a onclick="openQuantRes('LRS', this)"><span>Longitudinal Research Study</span></a></li>
+  </ul>
+</div>
   
   
-  <div id="RCT" class="quantres">
+  <div id="RCT" class="quantres card p-4">
     <h2>Randomized controlled trials</h2>
     <p><strong>Description</strong></p>
     <p>
@@ -22,7 +24,7 @@
 <p><strong>Generalizability:&nbsp;</strong>Well-designed RCTs provide findings that can be generalized to broader populations.</p>
   </div>
   
-  <div id="CSRS" class="quantres w3-card w3-padding" style="display:none">
+  <div id="CSRS" class="quantres card p-4" style="display:none">
     <h2>Cross-sectional Research study</h2>
     <p><strong>Description</strong></p>
     <p>A cross-sectional research study is a type of observational research design that involves data collection from a specific sample or population at a single point in time. The primary goal of a cross-sectional study is to gather information about the characteristics, behaviours, or conditions of the study participants at that particular moment. The cross-sectional research design is often called a survey design (Bryman 2016).
@@ -34,7 +36,7 @@
     <p><strong>Survey Methods:&nbsp;</strong>Data in cross-sectional studies are often collected through surveys, interviews, or other methods that can efficiently capture a wide range of information from a large number of participants.</p>
   </div>
   
-  <div id="LRS" class="quantres w3-card w3-padding" style="display:none">
+  <div id="LRS" class="quantres card p-4" style="display:none">
     <h2>Longitudinal Research Study</h2>
     <p><strong>Description</strong></p>
     <p>Longitudinal research designs involve the collection of data at multiple time points over an extended duration. These designs serve as valuable tools for investigating temporal changes and determining the chronological order of events, a fundamental aspect when establishing causative relationships.

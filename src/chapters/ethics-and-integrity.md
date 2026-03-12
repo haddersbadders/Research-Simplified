@@ -12,7 +12,7 @@ teaser:
 
 ## What is Ethics?
 
-<img src="/images/slouchy-couchy.png" class="w3-round" alt="A woman is slouched on a couch watching television. The room is a vivid yellow and full of dirty pans and plates." style="width:100%;max-width:400px; float:left; margin-right: 1em;">
+<img src="/images/slouchy-couchy.png" class="is-rounded" alt="A woman is slouched on a couch watching television. The room is a vivid yellow and full of dirty pans and plates." style="width:100%;max-width:400px; float:left; margin-right: 1em;">
 Imagine a person who lives alone in a house. In this setting, they are under no obligation to account for their actions to anyone and enjoy the freedom to do as they please, whether it involves having a late dinner, watching television for extended periods, or even painting the walls a vivid yellow! 
 
 The consequences of their actions are confined solely to themselves. However, if another person, such as a friend or a family member, subsequently joins them in the same dwelling, the dynamics change. The presence of two individuals necessitates the establishment of new behavioural guidelines, as the actions of one person can impact the other. These guidelines, which regulate an individual's behaviour or the manner in which activities are carried out in the presence of others, are collectively referred to as "ethics."
@@ -29,7 +29,7 @@ Healthcare practitioners are required to make well-informed decisions about the 
 
 Ethics in healthcare settings is a crucial and complex field that guides the conduct and decision-making of healthcare professionals, organizations, and patients. It involves a set of principles and values that help ensure the provision of high-quality, patient-centred care while addressing moral dilemmas and ethical challenges. Here are some key aspects of ethics in healthcare settings:
 
-<ul class="w3-ul">
+<ul>
 <li aria-level="1"><strong>Patient Autonomy:</strong> Patient autonomy is a fundamental principle of healthcare ethics. It emphasizes the right of patients to make informed decisions about their medical care, including the right to accept or refuse treatment. Healthcare professionals should respect and support a patient's autonomous choices.</li>
 <li aria-level="1"><strong>Beneficence:</strong> The principle of beneficence requires healthcare providers to act in the best interests of their patients. It involves providing care that maximizes benefits while minimizing harm. Beneficence is closely related to the concept of "do no harm" (non-maleficence).</li>
 <li aria-level="1"><strong>Non-Maleficence: </strong>Non-maleficence is the ethical duty to do no harm. Healthcare professionals should avoid actions that may harm patients and should carefully consider the potential risks and benefits of medical interventions.</li>
@@ -75,8 +75,8 @@ The idea behind informed consent is that people shouldn't be forced into partici
 
 **Definition:**
 
-<div class="w3-panel w3-leftbar w3-teal">
-<p class="w3-large">"A process by which a subject voluntarily confirms his or her willingness to participate in a particular trial, after having been informed of all aspects of the trial that are relevant to the subject’s decision to participate. Informed consent is documented by means of written signed and dated Informed Consent Form."</p>
+<div class="notification is-info has-text-black" style="border-left: 6px solid #00d1b2;">
+<p class="is-size-5">"A process by which a subject voluntarily confirms his or her willingness to participate in a particular trial, after having been informed of all aspects of the trial that are relevant to the subject’s decision to participate. Informed consent is documented by means of written signed and dated Informed Consent Form."</p>
 <p>(NIHR).</p>
 </div>
 
@@ -126,7 +126,7 @@ Sensitive topics in research and healthcare often involve issues that are deeply
 
 
 
-<div class="w3-panel w3-teal">
+<div class="notification is-info is-light">
 <h3>Generic principle of carrying out research with vulnerable individuals</h3>
 <p>When conducting research involving vulnerable individuals, the following general guidelines are helpful to keep in mind:</p>
 <ul>
@@ -153,7 +153,7 @@ Research projects involving staff and service evaluations frequently don't need 
 
 ### Research Ethics Committee:
 
-<div class="w3-panel w3-leftbar w3-teal">
+<div class="notification is-info has-text-black" style="border-left: 6px solid #00d1b2;">
 <p><strong>Definition:</strong>  "A Research Ethics Committee is a group of people appointed to review research proposals to assess formally if the research is ethical. This means the research must conform to recognised ethical standards, which includes respecting the dignity, rights, safety and well-being of the people  who take part."</p>
 </div>
 

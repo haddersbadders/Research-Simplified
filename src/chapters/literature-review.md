@@ -9,9 +9,9 @@ teaser:
   alt: icon of book
 
 ---
-<h3 onclick="accordion('toc')" class="w3-button w3-block w3-blue-grey w3-left-align w3-border-bottom w3-border-white">Table of Contents</h3>
+<button onclick="accordion('toc')" class="button is-fullwidth has-background-info-dark has-text-white is-justify-content-flex-start">Table of Contents</button>
 
-<div id="toc" class="w3-container w3-hide">
+<div id="toc" class="container is-hidden">
 {% include "partials/lit-review-toc.html" %}
 
 </div>
@@ -24,7 +24,7 @@ To illustrate the difference between reporting and reviewing, think about televi
 
 Usually, a literature review forms a section or part of a dissertation, research project or long essay.  However, it can also be set and assessed as a standalone piece of work.
 
-<div class="w3-panel w3-teal w3-large">
+<div class="notification is-info is-light is-size-5">
 
 **Definition:**
 
@@ -114,7 +114,7 @@ Click on the terms below to explore, understand and distinguish between various 
 
 This diagram provides a visual representation of the sequential steps involved in conducting a literature review. It serves as a useful reference for anyone engaged in the literature review process.
 
-<div class="w3-panel w3-teal"> 
+<div class="notification is-info is-light"> 
 <img src="/images/Process-Literature-Review.png" alt="flowchart of the process of a literature review" />
 
 <ol>
@@ -200,7 +200,7 @@ Four common approaches to finding evidence that fits with your inclusion criteri
 
 ### Summary of Inclusion and exclusion Criteria
 
-<table class="w3-table-all">
+<table class="table is-fullwidth">
 <tr>
   <th>Inclusion criteria</th>
   <th>Exclusion Criteria</th>
@@ -236,7 +236,7 @@ Conducting a comprehensive search is a critical foundation for a literature revi
 
 ### What is Primsa flow Chart?
 
-<div class="w3-panel w3-teal"><p>"PRISMA helps researchers ensure that they report all their search and paper selection details transparently in various types of reviews. The Prisma flow chart provides a visual summary of the steps reviewers took to find and decide whether to include published data in the review."</p></div>
+<div class="notification is-info is-light"><p>"PRISMA helps researchers ensure that they report all their search and paper selection details transparently in various types of reviews. The Prisma flow chart provides a visual summary of the steps reviewers took to find and decide whether to include published data in the review."</p></div>
 
 <figure>
 <img src="/images/PrismaChart.png" alt="diagram of the Prisma Chart" />
@@ -286,23 +286,23 @@ It is also important to remember that research articles and their parts or compo
 Analytical reading is an active cognitive process that involves developing the ability to think critically. It encompasses mental activities such as focusing, categorising, choosing, and assessing. Engaging in analytical reading not only leads to a deeper comprehension of the subject matter but also supports researchers in honing and retaining their analytical reading abilities.
 
 
-<div class="w3-card eeeca">
- <header class="w3-container w3-teal">
+<div class="card eeeca">
+ <header class="notification is-info">
   <h4>The EEECA Model of Analytical reading</h4>
 </header>
 
-<div class="w3-container">
+<div class="container">
 <ul>
   
-  <li class="w3-border-bottom w3-margin-bottom w3-padding-16"><span>Examine</span> the topic from more than one perspective </li>
+  <li class="border-bottom mb-3 py-4"><span class="has-text-weight-bold">Examine</span> the topic from more than one perspective </li>
   
-  <li class="w3-border-bottom w3-margin-bottom w3-padding-16"><span>Evaluate:</span> Critique the topic, thereby making a judgement about it</li>
+  <li class="border-bottom mb-3 py-4"><span class="has-text-weight-bold">Evaluate:</span> Critique the topic, thereby making a judgement about it</li>
   
-  <li class="w3-border-bottom w3-margin-bottom w3-padding-16"><span>Establish</span> relationships and show how they are related</li>
+  <li class="border-bottom mb-3 py-4"><span class="has-text-weight-bold">Establish</span> relationships and show how they are related</li>
   
-  <li class="w3-border-bottom w3-margin-bottom w3-padding-16"><span>Compare</span> and contrast the ideas - similarities and differences</li>
+  <li class="border-bottom mb-3 py-4"><span class="has-text-weight-bold">Compare</span> and contrast the ideas - similarities and differences</li>
   
-  <li class="w3-border-bottom w3-margin-bottom w3-padding-16"><span>Argue</span> for and against something to try to persuade the reader to agree</li>
+  <li class="border-bottom mb-3 py-4"><span class="has-text-weight-bold">Argue</span> for and against something to try to persuade the reader to agree</li>
   </ul>
 </div>
 
@@ -330,7 +330,7 @@ You will be able to make these judgments only if you are able to critically appr
 
 - It is important to remember that studies that do not state methods fully overstate the benefits of treatments. In addition, studies funded by a pharmaceutical company are more likely to give results that are favourable to the company than independent studies.
 
-<div class="w3-panel w3-teal">
+<div class="notification is-info is-light">
 
 <h3>Principles of Critical Appraisal</h3>
 

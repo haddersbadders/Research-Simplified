@@ -1,40 +1,42 @@
 
 {% for item in crMatrix.items %}
-<div class="w3-card-2" id="{{ item.id }}">
+<div class="card" id="{{ item.id }}">
 
-    <header class="w3-container w3-black ">
-      <h3>{{ item.name }}</h3>
+    <header class="card-header has-background-dark">
+      <p class="card-header-title has-text-white">{{ item.name }}</p>
     </header>
     
-    <div class="w3-bar">
-    <button onclick="openMatrix('{{ item.id }}Desc')" class="w3-bar-item w3-button">Description</button>
-    <button onclick="openMatrix('{{ item.id }}Search')" class="w3-bar-item w3-button">Search</button>
-    <button onclick="openMatrix('{{ item.id }}App')" class="w3-bar-item w3-button">Appraisal</button>
-    <button onclick="openMatrix('{{ item.id }}Syn')" class="w3-bar-item w3-button">Synthesis</button>
-    <button onclick="openMatrix('{{ item.id }}Anls')" class="w3-bar-item w3-button">Analysis</button>
+    <div class="tabs is-boxed is-fullwidth">
+      <ul>
+        <li class="is-active"><a onclick="openMatrix('{{ item.id }}Desc', this)"><span>Description</span></a></li>
+        <li><a onclick="openMatrix('{{ item.id }}Search', this)"><span>Search</span></a></li>
+        <li><a onclick="openMatrix('{{ item.id }}App', this)"><span>Appraisal</span></a></li>
+        <li><a onclick="openMatrix('{{ item.id }}Syn', this)"><span>Synthesis</span></a></li>
+        <li><a onclick="openMatrix('{{ item.id }}Anls', this)"><span>Analysis</span></a></li>
+      </ul>
     </div>
     
-    <div class="w3-container matrix" id="{{ item.id }}Desc">
+    <div class="matrix" id="{{ item.id }}Desc">
       <h4>Description</h4>
         <p >{{ item.description }}</p>
       </div>
       
-      <div class="w3-container matrix" id="{{ item.id }}Search" style="display:none">
+      <div class="matrix is-hidden" id="{{ item.id }}Search">
         <h4>Search</h4>
         <p>{{ item.search }}</p>
       </div>
       
-      <div class="w3-container matrix " id="{{ item.id }}App" style="display:none">
+      <div class="matrix is-hidden " id="{{ item.id }}App">
         <h4>Appraisal</h4>
         <p>{{ item.appraisal }}</p>
       </div>
       
-      <div class="w3-container matrix " id="{{ item.id }}Syn" style="display:none">
+      <div class="matrix is-hidden " id="{{ item.id }}Syn">
         <h4>Synthesis</h4>
         <p>{{ item.synthesis }}</p>
       </div>
       
-      <div class="w3-container matrix " id="{{ item.id }}Anls" style="display:none">
+      <div class="matrix is-hidden " id="{{ item.id }}Anls">
         <h4>Analysis</h4>
         <p>{{ item.analysis }}</p>
       </div>

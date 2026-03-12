@@ -1,34 +1,34 @@
-// Script to open and close sidebar
-function w3_open() {
-  document.getElementById("mySidebar").style.display = "block";
-  document.getElementById("myOverlay").style.display = "block";
-}
 
-function w3_close() {
-  document.getElementById("mySidebar").style.display = "none";
-  document.getElementById("myOverlay").style.display = "none";
-}
 
 // Accordion 
 
 function accordion(id) {
   var x = document.getElementById(id);
-  if (x.className.indexOf("w3-show") == -1) {
-    x.className += " w3-show";
+  if (x.className.indexOf("is-active") == -1) {
+    x.className += " is-active";
   } else { 
-    x.className = x.className.replace(" w3-show", "");
+    x.className = x.className.replace(" is-active", "");
   }
 }
 
 // Matrix
 
-function openMatrix(matrixname) {
+function openMatrix(matrixname, clickedElement) {
   var i;
   var x = document.getElementsByClassName("matrix");
   for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";
+    x[i].classList.add("is-hidden");
   }
-  document.getElementById(matrixname).style.display = "block";
+  document.getElementById(matrixname).classList.remove("is-hidden");
+
+  // Handle active tab state
+  if (clickedElement) {
+    var tabItems = clickedElement.closest('ul').getElementsByTagName('li');
+    for (i = 0; i < tabItems.length; i++) {
+      tabItems[i].classList.remove('is-active');
+    }
+    clickedElement.closest('li').classList.add('is-active');
+  }
 }
 
 
@@ -36,33 +36,51 @@ function openCr(evt, crName) {
   var i, x, tablinks;
   x = document.getElementsByClassName("cr");
   for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";
+    x[i].classList.add("is-hidden");
   }
   tablinks = document.getElementsByClassName("tablink");
   for (i = 0; i < x.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" w3-red", ""); 
+    tablinks[i].classList.remove("is-active"); 
   }
-  document.getElementById(crName).style.display = "block";
-  evt.currentTarget.className += " w3-red";
+  document.getElementById(crName).classList.remove("is-hidden");
+  evt.currentTarget.classList.add("is-active");
 }
 
 
-function openQualRes(qualResName) {
+function openQualRes(qualResName, clickedElement) {
   var i;
   var x = document.getElementsByClassName("qualres");
   for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";
+    x[i].classList.add("is-hidden");
   }
-  document.getElementById(qualResName).style.display = "block";
+  document.getElementById(qualResName).classList.remove("is-hidden");
+
+  // Handle active tab state
+  if (clickedElement) {
+    var tabItems = clickedElement.closest('ul').getElementsByTagName('li');
+    for (i = 0; i < tabItems.length; i++) {
+      tabItems[i].classList.remove('is-active');
+    }
+    clickedElement.closest('li').classList.add('is-active');
+  }
 }
 
-function openQuantRes(quantResName) {
+function openQuantRes(quantResName, clickedElement) {
   var i;
   var x = document.getElementsByClassName("quantres");
   for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";
+    x[i].classList.add("is-hidden");
   }
-  document.getElementById(quantResName).style.display = "block";
+  document.getElementById(quantResName).classList.remove("is-hidden");
+
+  // Handle active tab state
+  if (clickedElement) {
+    var tabItems = clickedElement.closest('ul').getElementsByTagName('li');
+    for (i = 0; i < tabItems.length; i++) {
+      tabItems[i].classList.remove('is-active');
+    }
+    clickedElement.closest('li').classList.add('is-active');
+  }
 }
 
 
@@ -98,7 +116,7 @@ document.addEventListener('DOMContentLoaded', function() {
       const descriptionElement = document.getElementById(`${method.toLowerCase()}Description`);
       if (descriptionElement) {
           descriptionElement.innerHTML = `
-              <h3 class="w3-text-${method === 'GroundedTheory' ? 'red' : method === 'Phenomenology' ? 'blue' : 'green'}">${componentName}</h3>
+              <h3 class="has-text-${method === 'GroundedTheory' ? 'danger' : method === 'Phenomenology' ? 'info' : 'success'}">${componentName}</h3>
               <p>${components[method][componentName].replace(/\n/g, '<br>')}</p>
           `;
       }
@@ -123,10 +141,10 @@ document.addEventListener('DOMContentLoaded', function() {
       }
       tablinks = document.getElementsByClassName("tablink");
       for (i = 0; i < x.length; i++) {
-          tablinks[i].className = tablinks[i].className.replace(" w3-red", "");
+          tablinks[i].classList.remove("is-active");
       }
       document.getElementById(methodName).style.display = "block";
-      evt.currentTarget.className += " w3-red";
+      evt.currentTarget.classList.add("is-active");
       
       // Update description for the first (Key Characteristics) component
       updateDescription(methodName, "Key Characteristics");
